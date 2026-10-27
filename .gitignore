@@ -1,0 +1,8 @@
+.env
+**/__pycache__/
+data/raw/llm/**/generated-tests/bin/
+data/raw/llm/**/generated-tests/obj/
+data/raw/repos/
+**/bin/
+**/obj/
+*.user

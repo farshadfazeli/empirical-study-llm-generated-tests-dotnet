@@ -1,0 +1,13 @@
+name,url,commit,license,size_loc,test_framework,dotnet_test_passes,files_mutated,verification_status,notes
+ErrorOr,https://github.com/amantinband/error-or,a1064860ca999a0cbb1b6fdac6d9ccfd33070e9a,MIT,890,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+Ardalis.GuardClauses,https://github.com/ardalis/GuardClauses,f96b823e4228252b2927cce3effa550c16b558a5,MIT,1388,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+Ardalis.Result,https://github.com/ardalis/Result,14cf45a126daa56f6798d033f4d5091aeb0900fc,MIT,2542,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+Ardalis.SmartEnum,https://github.com/ardalis/SmartEnum,9bc3f7a430552649e598cce7d2d2f481fb54a1b9,MIT,3697,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+Stateless,https://github.com/dotnet-state-machine/stateless,39060018baadd6c992ed1aea926921bce4630fce,MIT,5376,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+FluentResults,https://github.com/altmann/FluentResults,36284d3633abc3dbf8e165f665cff754c5bfceb7,MIT,5921,xUnit,unknown,,cloned; test verification pending,selected small pure-logic candidate
+SmartFormat.NET,https://github.com/axuno/SmartFormat,d8d49b454b63a8d621c258f1b2f583824688d049,MIT,18651,NUnit,unknown,,cloned; test verification pending,selected medium fallback candidate
+MoreLINQ,https://github.com/morelinq/MoreLINQ,d217ab1e8eac68247650c27e977b767dd66bcab0,MIT,20211,NUnit,unknown,,cloned; test verification pending,selected medium fallback candidate
+Optional,https://github.com/nlkl/Optional,fa0160d995af60e8378c28005d810ec5b74f2eef,MIT,3875,MSTest,unknown,,excluded; framework outside scope,backup only
+CSharpFunctionalExtensions,https://github.com/vkhorikov/CSharpFunctionalExtensions,e0fc908ecf0b006b0b5fdfea1d028137c9e5c5ae,MIT,49859,xUnit,unknown,,excluded; too large for scope,backup only
+OneOf,https://github.com/mcintyre321/OneOf,6e02dbe75d0f20f198c640d4c04190a85c5ac9e6,MIT,76743,xUnit,unknown,,excluded; too large for scope,backup only
+UnitsNet,https://github.com/angularsen/UnitsNet,3bf1ef4b3c4d82c05c7a2667b25e0867358f9a62,MIT,266488,NUnit,unknown,,excluded; too large for scope,backup only

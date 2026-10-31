@@ -23,6 +23,43 @@ def extract_code(text: str) -> str:
     return max(blocks, key=len).strip() if blocks else text.strip()
 
 
+def find_project_file(repo: Path, class_path: Path) -> Path:
+    candidates = sorted(class_path.parent.glob("*.csproj"))
+    if candidates:
+        return candidates[0]
+    candidates = sorted(repo.rglob("*.csproj"))
+    production = [path for path in candidates if "test" not in str(path).lower()]
+    if len(production) == 1:
+        return production[0]
+    raise RuntimeError(f"Could not identify the production project for {class_path}")
+
+
+def create_test_project(output_dir: Path, library_project: Path) -> Path:
+    project_file = output_dir / "GeneratedTests.csproj"
+    reference = os.path.relpath(library_project, output_dir).replace("/", "\\")
+    project_file.write_text(
+        """<Project Sdk=\"Microsoft.NET.Sdk\">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include=\"Microsoft.NET.Test.Sdk\" Version=\"17.12.0\" />
+    <PackageReference Include=\"xunit\" Version=\"2.9.3\" />
+    <PackageReference Include=\"xunit.runner.visualstudio\" Version=\"3.1.5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include=\"%s\" />
+  </ItemGroup>
+</Project>
+""" % reference,
+        encoding="utf-8",
+    )
+    return project_file
+
+
 def call_model(prompt: str) -> dict:
     api_key = os.environ.get("LLM_API_KEY")
     model = os.environ.get("LLM_MODEL")
@@ -59,10 +96,16 @@ def main() -> None:
     stamp = datetime.now(timezone.utc).isoformat()
     out = ROOT / "data" / "raw" / "llm" / args.library / args.strategy / f"repeat_{args.repeat}"
     out.mkdir(parents=True, exist_ok=True)
+    library_project = find_project_file(repo, class_path)
+    generated_project_dir = out / "generated-tests"
+    generated_project_dir.mkdir(parents=True, exist_ok=True)
     (out / "prompt.txt").write_text(prompt, encoding="utf-8")
     (out / "response.json").write_text(json.dumps(response, indent=2), encoding="utf-8")
-    (out / "generated.cs").write_text(extract_code(content), encoding="utf-8")
-    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "timestamp_utc": stamp}, indent=2), encoding="utf-8")
+    generated_source = extract_code(content)
+    (out / "generated.cs").write_text(generated_source, encoding="utf-8")
+    (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
+    project_file = create_test_project(generated_project_dir, library_project)
+    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "timestamp_utc": stamp, "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

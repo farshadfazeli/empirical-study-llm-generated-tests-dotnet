@@ -48,6 +48,7 @@ Each pipeline step is a separate command:
 ```powershell
 python src/select_libs.py
 python src/generate.py --library Ardalis.GuardClauses --strategy basic --repeat 1 --class-file src/GuardClauses/Guard.cs
+python src/create_test_project.py --library Ardalis.GuardClauses --strategy basic --repeat 1
 python src/validate.py --library Ardalis.GuardClauses
 python src/measure.py --library Ardalis.GuardClauses --suite human
 python src/feedback_round.py --library Ardalis.GuardClauses

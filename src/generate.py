@@ -6,6 +6,7 @@ import argparse
 import json
 import os
 import re
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -20,7 +21,10 @@ def source_files(repo: Path) -> list[Path]:
 
 def extract_code(text: str) -> str:
     blocks = re.findall(r"```(?:csharp|cs|c#)?\s*(.*?)```", text, flags=re.S | re.I)
-    return max(blocks, key=len).strip() if blocks else text.strip()
+    if blocks:
+        return max(blocks, key=len).strip()
+    cleaned = re.sub(r"^\s*```(?:csharp|cs|c#)?\s*", "", text, count=1, flags=re.I)
+    return re.sub(r"\s*```\s*$", "", cleaned, count=1).strip()
 
 
 def find_project_file(repo: Path, class_path: Path) -> Path:
@@ -66,7 +70,7 @@ def call_model(prompt: str) -> dict:
     if not api_key or not model:
         raise RuntimeError("LLM_API_KEY and LLM_MODEL must be set in the environment")
     base_url = os.environ.get("LLM_BASE_URL", "https://api.openai.com/v1").rstrip("/")
-    payload = {"model": model, "temperature": 0.2, "messages": [{"role": "user", "content": prompt}]}
+    payload = {"model": model, "temperature": 0.2, "max_tokens": 700, "messages": [{"role": "user", "content": prompt}]}
     request = urllib.request.Request(
         f"{base_url}/chat/completions",
         data=json.dumps(payload).encode(),
@@ -91,7 +95,9 @@ def main() -> None:
     prompt = f"Write xUnit tests for this C# class. Return only a complete test file.\n\n{source}"
     if args.strategy == "feedback":
         prompt += "\n\nAdd tests that target the surviving mutants supplied in the feedback file."
+    started = time.perf_counter()
     response = call_model(prompt)
+    elapsed_seconds = round(time.perf_counter() - started, 3)
     content = response["choices"][0]["message"]["content"]
     stamp = datetime.now(timezone.utc).isoformat()
     out = ROOT / "data" / "raw" / "llm" / args.library / args.strategy / f"repeat_{args.repeat}"
@@ -105,7 +111,8 @@ def main() -> None:
     (out / "generated.cs").write_text(generated_source, encoding="utf-8")
     (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
     project_file = create_test_project(generated_project_dir, library_project)
-    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "timestamp_utc": stamp, "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
+    usage = response.get("usage", {})
+    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": 700, "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

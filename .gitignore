@@ -3,6 +3,7 @@
 data/raw/llm/**/generated-tests/bin/
 data/raw/llm/**/generated-tests/obj/
 data/raw/repos/
+data/raw/local-llm/
 **/bin/
 **/obj/
 *.user

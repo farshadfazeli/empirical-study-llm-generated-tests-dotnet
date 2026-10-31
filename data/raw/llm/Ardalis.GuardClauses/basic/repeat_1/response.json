@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Runtime.CompilerServices;\n\nnamespace Ardalis.GuardClauses\n{\n    /// <summary>\n    /// A collection of common guard clauses, implemented as extensions.\n    /// </summary>\n    /// <example>\n    /// Guard.Against.Null(input, nameof(input));\n    /// </example>\n    public static partial class GuardClauseExtensions\n    {\n        /// <summary>\n        /// Throws an <see cref=\"ArgumentNullException\" /> or a custom <see cref=\"Exception\" /> if <paramref name=\"input\" /> is null.\n        /// </summary>\n        /// <typeparam name=\"T\"></typeparam>\n        /// <param name=\"guardClause\"></param>\n        /// <param name=\"input\"></param>\n        /// <param name=\"parameterName\"></param>\n        /// <param name=\"message\">Optional. Custom error message</param>\n        /// <param name=\"exceptionCreator\"></param>\n        /// <returns><paramref name=\"input\" /> if the value is not null.</returns>\n        /// <exception cref=\"Exception\"></exception>\n        public static T Null<T>(this IGuardClause guardClause,\n            [NotNull][ValidatedNotNull]T? input,\n            [CallerArgumentExpression(\"input\")] string? parameterName = null,\n            string? message = null,\n            Func<Exception>? exceptionCreator = null)\n        {\n            if (input is null)\n            {\n                Exception? exception = exceptionCreator?.Invoke();\n\n                if (string.IsNullOrEmpty(message))\n                {\n                    throw exception ?? new ArgumentNullException(parameterName);\n                }\n                throw exception ?? new ArgumentNullException(parameterName, message);\n            }\n\n            return input;\n        }\n\n        /// <summary>\n        /// Throws an <see cref=\"ArgumentNullException\" /> or a custom <see cref=\"Exception\" /> if <paramref name=\"input\" /> is null.\n        /// Throws an <see cref=\"ArgumentException\" /> or a custom <see cref=\"Exception\" /> if <paramref name=\"input\" /> is an empty string.\n        /// </summary>\n        /// <param name=\"guardClause\"></param>\n        /// <param name=\"input\"></param>\n        /// <param name=\"parameterName\"></param>\n        /// <param name=\"message\">Optional. Custom error message</param>\n        /// <param name=\"exceptionCreator\"></param>\n        /// <returns><paramref name=\"input\" /> if the value is not an empty string or null.</returns>\n        /// <exception cref=\"ArgumentNullException\"></exception>\n        /// <exception cref=\"ArgumentException\"></exception>\n        /// <exception cref=\"Exception\"></exception>\n        public static string NullOrEmpty(this IGuardClause guardClause,\n            [NotNull][ValidatedNotNull] string? input,\n            [CallerArgumentExpression(\"input\")] string? parameterName = null,\n            string? message = null,\n            Func<Exception>? exceptionCreator = null)\n        {\n            Guard.Against.Null(input, parameterName, message, exceptionCreator);\n            if (input == string.Empty)\n            {\n                throw exceptionCreator?.Invoke() ?? \n                    new ArgumentException(message ?? $\"Required input {parameterName} was empty.\", parameterName);\n            }\n\n            return input;\n        }\n\n        /// <summary>\n        /// Throws an <see cref=\"ArgumentNullException\" /> or a custom <see cref=\"Exception\" />if <paramref name=\"input\" /> is null.\n        /// Throws an <see cref=\""
+      }
+    }
+  ],
+  "created": 1793449842,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 700,
+    "prompt_tokens": 2535,
+    "total_tokens": 3235,
+    "prompt_tokens_details": {
+      "cached_tokens": 2534
+    }
+  },
+  "id": "chatcmpl-1SZJl7AEW2k0XMxzUSWtFnwu7sKdqYkY",
+  "timings": {
+    "cache_n": 2534,
+    "prompt_n": 1,
+    "prompt_ms": 164.377,
+    "prompt_per_token_ms": 164.377,
+    "prompt_per_second": 6.083576169415429,
+    "predicted_n": 700,
+    "predicted_ms": 125576.908,
+    "predicted_per_token_ms": 179.65222889842633,
+    "predicted_per_second": 5.5663100097989355
+  }
+}

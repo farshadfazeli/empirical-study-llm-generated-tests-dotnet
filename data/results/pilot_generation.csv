@@ -1,0 +1,2 @@
+library,strategy,repeat,model,prompt_tokens,completion_tokens,total_tokens,generation_seconds,compile_status,compile_error_summary
+Ardalis.GuardClauses,basic,1,qwen-local,2535,700,3235,125.8,failed,"Generated response began with an unclosed Markdown fence and contained source-code content rather than a complete test suite; dotnet test reported CS1056, CS0116, and CS1513."

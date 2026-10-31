@@ -1,0 +1,10 @@
+library,suite,restore_ok,compile_ok,original_tests_pass,removed_tests,exit_code,timestamp_utc,output_tail
+Ardalis.GuardClauses,C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests,True,False,False,0,1,2026-10-31T13:11:15.481240+00:00,"  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GuardClauses -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.cs(1,1): error CS1056: Unexpected character '`' [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.cs(1,2): error CS1056: Unexpected character '`' [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.cs(1,3): error CS1056: Unexpected character '`' [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.cs(1,4): error CS0116: A namespace cannot directly contain members such as fields, methods or statements [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.cs(75,10): error CS1513: } expected [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\repeat_1\generated-tests\GeneratedTests.csproj]
+"

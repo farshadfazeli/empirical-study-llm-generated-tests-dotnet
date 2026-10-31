@@ -50,6 +50,8 @@ python src/select_libs.py
 python src/generate.py --library Ardalis.GuardClauses --strategy basic --repeat 1 --class-file src/GuardClauses/Guard.cs
 python src/create_test_project.py --library Ardalis.GuardClauses --strategy basic --repeat 1
 python src/validate.py --library Ardalis.GuardClauses
+python src/coverage.py --library Ardalis.GuardClauses --suite human --project data/raw/pilot/Ardalis.GuardClauses.HumanTests/Ardalis.GuardClauses.HumanTests.csproj
+python src/coverage.py --library Ardalis.GuardClauses --suite basic_repeat_1_generated --project data/raw/llm/Ardalis.GuardClauses/basic/repeat_1/generated-tests/GeneratedTests.csproj
 python src/measure.py --library Ardalis.GuardClauses --suite human
 python src/feedback_round.py --library Ardalis.GuardClauses
 python src/analyze.py
@@ -71,6 +73,15 @@ The API key is read only from the environment and is never stored in files, prom
 - Stryker.NET (`dotnet-stryker`) x.y.z
 - Coverlet x.y.z
 - Python 3.x with pandas and matplotlib
+
+## Pilot coverage result
+
+Coverlet was run on the human baseline and produced a Cobertura report under
+`data/raw/reports/`. The observed aggregate coverage is line coverage `0.0203`
+(`12/591` lines) and branch coverage `0.0365` (`9/246` branches). The generated
+Qwen suite did not compile, so its coverage run is recorded as `failed` with no
+coverage values; it is not silently omitted. The analysis-ready rows are in
+`data/results/coverage.csv`.
 
 ## Results
 

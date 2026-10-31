@@ -1,0 +1,3 @@
+library,suite,line_coverage,branch_coverage,lines_covered,lines_valid,branches_covered,branches_valid,status,report_path,exit_code,timestamp_utc
+Ardalis.GuardClauses,human,0.0203,0.0365,12,591,9,246,ok,data\raw\reports\Ardalis.GuardClauses\human\77d464f6-8e21-4145-8120-5617a2d1364f\coverage.cobertura.xml,0,2026-10-31T15:02:29.023480+00:00
+Ardalis.GuardClauses,basic_repeat_1_generated,,,,,,,failed,,1,2026-10-31T15:02:49.736634+00:00

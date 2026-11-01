@@ -47,6 +47,7 @@ Each pipeline step is a separate command:
 
 ```powershell
 python src/select_libs.py
+dotnet tool restore
 python src/generate.py --library Ardalis.GuardClauses --strategy basic --repeat 1 --class-file src/GuardClauses/Guard.cs
 python src/create_test_project.py --library Ardalis.GuardClauses --strategy basic --repeat 1
 python src/validate.py --library Ardalis.GuardClauses
@@ -70,7 +71,7 @@ The API key is read only from the environment and is never stored in files, prom
 
 **Requirements** (TODO: pin exact versions)
 - .NET SDK 8.x
-- Stryker.NET (`dotnet-stryker`) x.y.z
+- Stryker.NET (`dotnet-stryker`) 4.8.0 (pinned in `.config/dotnet-tools.json`)
 - Coverlet x.y.z
 - Python 3.x with pandas and matplotlib
 
@@ -82,6 +83,14 @@ Coverlet was run on the human baseline and produced a Cobertura report under
 Qwen suite did not compile, so its coverage run is recorded as `failed` with no
 coverage values; it is not silently omitted. The analysis-ready rows are in
 `data/results/coverage.csv`.
+
+Stryker.NET 4.8.0 was then run against the pilot target file. It created 352
+mutants; 5 were killed, 3 survived, 47 had no coverage, 2 caused compile
+errors, and 295 were ignored by Stryker's filters. Stryker reported a mutation
+score of `0.0909`. The complete JSON report is retained under
+`data/raw/reports/Ardalis.GuardClauses/human/reports/`, with the analysis row
+in `data/results/mutation.csv`. These are pilot observations, not conclusions
+about the full study.
 
 ## Results
 

@@ -1,0 +1,4 @@
+Working directory: data/raw/pilot/Ardalis.GuardClauses.HumanTests
+dotnet stryker --project GuardClauses.csproj --test-project Ardalis.GuardClauses.HumanTests.csproj --mutate GuardAgainstNullExtensions.cs --reporter json --output ..\..\..\..\data\raw\reports\Ardalis.GuardClauses\human
+Stryker.NET: 4.8.0
+Target: src/GuardClauses/GuardAgainstNullExtensions.cs

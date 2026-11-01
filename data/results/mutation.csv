@@ -1,0 +1,2 @@
+library,suite,files_mutated,mutants_created,killed,survived,no_coverage,compile_error,ignored,mutation_score,status,report_path,stryker_version
+Ardalis.GuardClauses,human,src/GuardClauses/GuardAgainstNullExtensions.cs,352,5,3,47,2,295,0.0909,ok,data/raw/reports/Ardalis.GuardClauses/human/reports/mutation-report.json,4.8.0

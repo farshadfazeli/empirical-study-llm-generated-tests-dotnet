@@ -18,11 +18,12 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--library", required=True)
     parser.add_argument("--no-restore", action="store_true")
+    parser.add_argument("--source", default="https://api.nuget.org/v3/index.json")
     args = parser.parse_args()
     rows = []
     root = ROOT / "data" / "raw" / "llm" / args.library
     for project in root.glob("**/generated-tests/*.csproj"):
-        restore = subprocess.run(["dotnet", "restore", str(project), "--ignore-failed-sources", "--nologo"], text=True, capture_output=True)
+        restore = subprocess.run(["dotnet", "restore", str(project), "--source", args.source, "--ignore-failed-sources", "--nologo"], text=True, capture_output=True)
         command = ["dotnet", "test", str(project), "--nologo", "--verbosity", "minimal"]
         command.insert(2, "--no-restore")
         completed = subprocess.run(command, text=True, capture_output=True)

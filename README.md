@@ -92,6 +92,17 @@ score of `0.0909`. The complete JSON report is retained under
 in `data/results/mutation.csv`. These are pilot observations, not conclusions
 about the full study.
 
+## Pilot validation result
+
+The revised Qwen prompt was run for the three requested basic repetitions; an
+additional repaired-prompt output was retained separately. NuGet restore
+succeeded for all four suites when the official NuGet source was selected, but
+none compiled. Therefore the observed pilot compile rate is `0/4 = 0.0` and
+the pass rate is `0/4 = 0.0`. The rows and compiler diagnostics are retained in
+`data/results/validation.csv`, and the latest aggregate is in
+`data/results/validation_summary.csv`. The failures remain part of the result;
+they are not converted into missing data.
+
 ## Results
 
 Pending. Tables and plots will be added here after the full run.

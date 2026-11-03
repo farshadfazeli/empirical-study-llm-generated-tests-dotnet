@@ -1,0 +1,13 @@
+{
+  "model": "qwen-local",
+  "temperature": 0.2,
+  "max_tokens": 700,
+  "timestamp_utc": "2026-11-03T06:36:58.036584+00:00",
+  "generation_seconds": 105.267,
+  "prompt_tokens": 2709,
+  "completion_tokens": 328,
+  "total_tokens": 3037,
+  "class_file": "src\\GuardClauses\\GuardAgainstNullExtensions.cs",
+  "library_project": "src\\GuardClauses\\GuardClauses.csproj",
+  "generated_project": "data\\raw\\llm\\Ardalis.GuardClauses\\basic\\repeat_3_repaired\\generated-tests\\GeneratedTests.csproj"
+}

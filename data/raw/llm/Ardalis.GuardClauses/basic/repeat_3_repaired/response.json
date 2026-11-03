@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Diagnostics.CodeAnalysis;\nusing System.Linq;\nusing System.Runtime.CompilerServices;\nusing Ardalis.GuardClauses;\n\nnamespace Ardalis.GuardClauses.Tests\n{\n    public static class GuardClauseExtensionsTests\n    {\n        [Fact]\n        public static void Null_ThrowsArgumentNullException_WhenInputIsNull()\n        {\n            // Arrange\n            var guardClause = new GuardClauseExtensions();\n            var input = null;\n\n            // Act\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null(input, nameof(input)));\n\n            // Assert\n            Assert.Equal(nameof(input), exception.ParamName);\n            Assert.Equal(\"input is null\", exception.Message);\n        }\n\n        [Fact]\n        public static void Null_ThrowsArgumentException_WhenInputIsEmptyString()\n        {\n            // Arrange\n            var guardClause = new GuardClauseExtensions();\n            var input = string.Empty;\n\n            // Act\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null(input, nameof(input)));\n\n            // Assert\n            Assert.Equal(nameof(input), exception.ParamName);\n            Assert.Equal(\"input is empty\", exception.Message);\n        }\n\n        [Fact]\n        public static void Null_ThrowsArgumentException_WhenInputIsEmptyGuid()\n        {\n            // Arrange\n            var guardClause = new GuardClauseExtensions();\n            var input = Guid.Empty;\n\n            // Act\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null(input, nameof(input)));\n\n            // Assert\n            Assert.Equal(nameof(input), exception.ParamName);\n            Assert.Equal(\"input is empty\", exception.Message);\n        }\n    }\n}\n```"
+      }
+    }
+  ],
+  "created": 1793687818,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 328,
+    "prompt_tokens": 2709,
+    "total_tokens": 3037,
+    "prompt_tokens_details": {
+      "cached_tokens": 78
+    }
+  },
+  "id": "chatcmpl-ruozFEbS6zVKGATtFoBAMuXP4Dv3Pz6f",
+  "timings": {
+    "cache_n": 78,
+    "prompt_n": 2631,
+    "prompt_ms": 46719.867,
+    "prompt_per_token_ms": 17.757456100342075,
+    "prompt_per_second": 56.31437264151459,
+    "predicted_n": 328,
+    "predicted_ms": 58153.943,
+    "predicted_per_token_ms": 177.84080428134556,
+    "predicted_per_second": 5.623006508776198
+  }
+}

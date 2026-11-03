@@ -71,13 +71,13 @@ def call_model(prompt: str) -> dict:
     if not api_key or not model:
         raise RuntimeError("LLM_API_KEY and LLM_MODEL must be set in the environment")
     base_url = os.environ.get("LLM_BASE_URL", "https://api.openai.com/v1").rstrip("/")
-    payload = {"model": model, "temperature": 0.2, "max_tokens": 700, "messages": [{"role": "user", "content": prompt}]}
+    payload = {"model": model, "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "messages": [{"role": "system", "content": "You are a precise C# unit-test generator. You must follow the requested output format exactly."}, {"role": "user", "content": prompt}]}
     request = urllib.request.Request(
         f"{base_url}/chat/completions",
         data=json.dumps(payload).encode(),
         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
     )
-    with urllib.request.urlopen(request, timeout=180) as response:
+    with urllib.request.urlopen(request, timeout=int(os.environ.get("LLM_TIMEOUT_SECONDS", "300"))) as response:
         return json.loads(response.read())
 
 
@@ -87,13 +87,24 @@ def main() -> None:
     parser.add_argument("--strategy", choices=("basic", "feedback"), required=True)
     parser.add_argument("--repeat", type=int, choices=(1, 2, 3), required=True)
     parser.add_argument("--class-file", required=True)
+    parser.add_argument("--output-name", default=None)
     args = parser.parse_args()
     repo = ROOT / "data" / "raw" / "repos" / args.library
     class_path = Path(args.class_file)
     if not class_path.is_absolute():
         class_path = repo / class_path
     source = class_path.read_text(encoding="utf-8")
-    prompt = f"Write xUnit tests for this C# class. Return only a complete test file.\n\n{source}"
+    prompt = f"""You are writing unit tests, not production code.
+Write a complete, compilable C# xUnit test file for the class below.
+Return ONLY raw C# source code. Do not use Markdown fences, explanations, XML documentation, or production-code implementations.
+Return exactly three short [Fact] tests. The first line must be `using System;`, followed by `using Ardalis.GuardClauses;` and `using Xunit;`.
+The output must contain a file-scoped test namespace, a public test class, and xUnit [Fact] methods. End with all closing braces.
+Test the public behavior of the supplied class. Do not reproduce or rewrite the supplied production class.
+For this target, call the API as `Guard.Against.Null(value, parameterName)`; do not instantiate `GuardClauseExtensions`, which is a static class.
+Use only APIs visible in the supplied source and ordinary xUnit assertions.
+
+SOURCE CLASS:
+{source}"""
     if args.strategy == "feedback":
         prompt += "\n\nAdd tests that target the surviving mutants supplied in the feedback file."
     started = time.perf_counter()
@@ -101,7 +112,8 @@ def main() -> None:
     elapsed_seconds = round(time.perf_counter() - started, 3)
     content = response["choices"][0]["message"]["content"]
     stamp = datetime.now(timezone.utc).isoformat()
-    out = ROOT / "data" / "raw" / "llm" / args.library / args.strategy / f"repeat_{args.repeat}"
+    output_name = args.output_name or f"repeat_{args.repeat}"
+    out = ROOT / "data" / "raw" / "llm" / args.library / args.strategy / output_name
     out.mkdir(parents=True, exist_ok=True)
     library_project = find_project_file(repo, class_path)
     generated_project_dir = out / "generated-tests"
@@ -113,7 +125,7 @@ def main() -> None:
     (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
     project_file = create_test_project(generated_project_dir, library_project)
     usage = response.get("usage", {})
-    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": 700, "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
+    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

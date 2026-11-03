@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```csharp\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Runtime.CompilerServices;\n\nnamespace Ardalis.GuardClauses.Tests\n{\n    public class GuardClauseExtensionsTests\n    {\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", null));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentException_WhenInputIsNullAndMessageIsProvided()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null<object>(null, \"input\", \"message\", null));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\")));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\")));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvided()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), \"message\"));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvided()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), \"message\"));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), () => new ArgumentNullException(\"parameterName\", \"message\")));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), () => new ArgumentNullException(\"parameterName\", \"message\")));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvided()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), () => new ArgumentNullException(\"parameterName\", \"message\"), \"message\"));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvided()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), () => new ArgumentNullException(\"parameterName\", \"message\"), \"message\"));\n            Assert.NotNull(exception);\n        }\n\n        [Fact]\n        public void Null_ThrowsArgumentNullException_WhenInputIsNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNullAndMessageIsProvidedAndExceptionCreatorIsNotNull()\n        {\n            var guardClause = new GuardClauseExtensions();\n            var exception = Assert.Throws<ArgumentNullException>(() => guardClause.Null<object>(null, \"input\", \"message\", () => new ArgumentNullException(\"parameterName\"), () => new ArgumentNullException(\"parameterName\", \"message\"), () => new ArgumentNullException(\"parameterName\", \"message"
+      }
+    }
+  ],
+  "created": 1793687609,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 1000,
+    "prompt_tokens": 2636,
+    "total_tokens": 3636,
+    "prompt_tokens_details": {
+      "cached_tokens": 5
+    }
+  },
+  "id": "chatcmpl-ooHn1bceflO5AdvNIgT2upSNPzqwpMV7",
+  "timings": {
+    "cache_n": 5,
+    "prompt_n": 2631,
+    "prompt_ms": 46122.3,
+    "prompt_per_token_ms": 17.530330672748004,
+    "prompt_per_second": 57.04398956686895,
+    "predicted_n": 1000,
+    "predicted_ms": 175731.353,
+    "predicted_per_token_ms": 175.90726026026027,
+    "predicted_per_second": 5.684813682621564
+  }
+}

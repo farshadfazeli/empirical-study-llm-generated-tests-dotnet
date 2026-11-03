@@ -1,0 +1,58 @@
+You are writing unit tests, not production code.
+Write a complete, compilable C# xUnit test file for the class below.
+Return ONLY raw C# source code. Do not use Markdown fences, explanations, XML documentation, or production-code implementations.
+Return exactly three short [Fact] tests. The first line must be `using System;`, followed by `using Ardalis.GuardClauses;` and `using Xunit;`.
+The output must contain a file-scoped test namespace, a public test class, and xUnit [Fact] methods. End with all closing braces.
+Test the public behavior of the supplied class. Do not reproduce or rewrite the supplied production class.
+For this target, call the API as `Guard.Against.Null(value, parameterName)`; do not instantiate `GuardClauseExtensions`, which is a static class.
+Use only APIs visible in the supplied source and ordinary xUnit assertions.
+Use this exact brace structure; every namespace, class, and method must have opening and closing braces:
+namespace GeneratedTests
+{
+    public class NullTests
+    {
+        [Fact]
+        public void Example()
+        {
+            // test body
+        }
+    }
+}
+
+SOURCE CLASS OR API CONTEXT:
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Runtime.CompilerServices;
+namespace Ardalis.GuardClauses;
+public static partial class GuardClauseExtensions
+
+    public static T Null<T>(this IGuardClause guardClause,
+        [NotNull][ValidatedNotNull]T? input,
+        [CallerArgumentExpression("input")] string? parameterName = null,
+        string? message = null,
+        Func<Exception>? exceptionCreator = null)
+
+        Func<Exception>? exceptionCreator = null) where T : struct
+
+    public static string NullOrEmpty(this IGuardClause guardClause,
+        [NotNull][ValidatedNotNull] string? input,
+
+    public static Guid NullOrEmpty(this IGuardClause guardClause,
+        [NotNull][ValidatedNotNull] Guid? input,
+
+    public static IEnumerable<T> NullOrEmpty<T>(this IGuardClause guardClause,
+        [NotNull][ValidatedNotNull] IEnumerable<T>? input,
+
+    public static string NullOrWhiteSpace(this IGuardClause guardClause,
+
+    public static T Default<T>(this IGuardClause guardClause,
+        [AllowNull, NotNull]T input,
+
+    public static T NullOrInvalidInput<T>(this IGuardClause guardClause,
+        [NotNull] T? input,
+        string parameterName,
+        Func<T, bool> predicate,
+
+
+Usage example: Guard.Against.Null(value, nameof(value));

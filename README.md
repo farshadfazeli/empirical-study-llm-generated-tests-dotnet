@@ -103,6 +103,16 @@ the pass rate is `0/4 = 0.0`. The rows and compiler diagnostics are retained in
 `data/results/validation_summary.csv`. The failures remain part of the result;
 they are not converted into missing data.
 
+## Compact-context prompt check
+
+`src/generate.py` now supports `--compact-context`, which sends declarations,
+public signatures, and a usage example instead of the full implementation
+body. The Qwen prompt fell from about 2,700 tokens to 558 tokens. The resulting
+`compact_context_2` output had valid brace structure and restored successfully,
+but still failed compilation because generated assertions and identifiers were
+invalid. Its result is recorded separately in `data/results/validation.csv`; it
+is not counted as a passing LLM suite.
+
 ## Results
 
 Pending. Tables and plots will be added here after the full run.

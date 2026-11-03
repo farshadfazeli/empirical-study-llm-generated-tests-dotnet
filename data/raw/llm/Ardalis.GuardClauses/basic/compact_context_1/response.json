@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "using System;\nusing Ardalis.GuardClauses;\nusing Xunit;\n\nnamespace GuardTests\n    public class GuardTests\n        [Fact]\n        public void Null_WhenInputIsNull()\n            var guard = new GuardClauseExtensions();\n            var result = guard.Null(null, nameof(null), \"Input cannot be null.\");\n            Assert.IsType<ArgumentNullException>(result);\n\n        [Fact]\n        public void Null_WhenInputIsInvalid()\n            var guard = new GuardClauseExtensions();\n            var result = guard.Null(new object(), nameof(object), \"Input is invalid.\");\n            Assert.IsType<ArgumentException>(result);\n\n        [Fact]\n        public void Null_WhenInputIsInvalidAndExceptionCreatorIsProvided()\n            var guard = new GuardClauseExtensions();\n            var result = guard.Null(new object(), nameof(object), \"Input is invalid.\", () => new ArgumentException(\"Invalid input.\"));\n            Assert.IsType<ArgumentException>(result);"
+      }
+    }
+  ],
+  "created": 1793689798,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 504,
+    "total_tokens": 689,
+    "prompt_tokens_details": {
+      "cached_tokens": 214
+    }
+  },
+  "id": "chatcmpl-VRzcxzPqMXqEz8Y8Vlrq2HVMeDjsxzTZ",
+  "timings": {
+    "cache_n": 214,
+    "prompt_n": 290,
+    "prompt_ms": 63300.468,
+    "prompt_per_token_ms": 218.27747586206897,
+    "prompt_per_second": 4.58132473838898,
+    "predicted_n": 185,
+    "predicted_ms": 50917.308,
+    "predicted_per_token_ms": 276.7245,
+    "predicted_per_second": 3.613702436900238
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```csharp\nusing System;\nusing Ardalis.GuardClauses;\nusing Xunit;\n\nnamespace GeneratedTests\n{\n    public class NullTests\n    {\n        [Fact]\n        public void NullGuard()\n        {\n            // Test with null value\n            var guard = Guard.Against.Null(null, nameof(nullValue));\n            Assert.Throws<ArgumentNullException>(guard);\n\n            // Test with non-null value\n            var guard2 = Guard.Against.Null(\"Test\", nameof(testValue));\n            Assert.True(guard2);\n        }\n\n        [Fact]\n        public void NullOrEmptyGuard()\n        {\n            // Test with empty string\n            var guard = Guard.Against.NullOrEmpty(string.Empty, nameof(emptyString));\n            Assert.True(guard);\n\n            // Test with non-empty string\n            var guard2 = Guard.Against.NullOrEmpty(\"Test\", nameof(testString));\n            Assert.True(guard2);\n        }\n\n        [Fact]\n        public void NullOrEmptyGuidGuard()\n        {\n            // Test with valid GUID\n            var guard = Guard.Against.NullOrEmpty(Guid.NewGuid(), nameof(guidValue));\n            Assert.True(guard);\n\n            // Test with invalid GUID (e.g., empty string)\n            var guard2 = Guard.Against.NullOrEmpty(Guid.Empty, nameof(invalidGuid));\n            Assert.False(guard2);\n        }\n\n        [Fact]\n        public void NullOrWhiteSpaceGuard()\n        {\n            // Test with whitespace string\n            var guard = Guard.Against.NullOrWhiteSpace(\"  \", nameof(whitespaceString));\n            Assert.True(guard);\n\n            // Test with non-whitespace string\n            var guard2 = Guard.Against.NullOrWhiteSpace(\"Test\", nameof(testString));\n            Assert.True(guard2);\n        }\n\n        [Fact]\n        public void DefaultGuard()\n        {\n            // Test with default value\n            var guard = Guard.Against.Default(Guid.Empty, nameof(defaultGuid));\n            Assert.True(guard);\n\n            // Test with non-default value\n            var guard2 = Guard.Against.Default(\"Test\", nameof(defaultString));\n            Assert.True(guard2);\n        }\n\n        [Fact]\n        public void NullOrInvalidInputGuard()\n        {\n            // Test with valid input\n            var guard = Guard.Against.NullOrInvalidInput(123, nameof(validInput), null);\n            Assert.True(guard);\n\n            // Test with invalid input (e.g., null)\n            var guard2 = Guard.Against.NullOrInvalidInput(null, nameof(invalidInput), null);\n            Assert.False(guard2);\n        }\n    }\n}\n```"
+      }
+    }
+  ],
+  "created": 1793690011,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 534,
+    "prompt_tokens": 558,
+    "total_tokens": 1092,
+    "prompt_tokens_details": {
+      "cached_tokens": 211
+    }
+  },
+  "id": "chatcmpl-pKaJZ4PdOxAXpvKatQpsQHv387K5znBz",
+  "timings": {
+    "cache_n": 211,
+    "prompt_n": 347,
+    "prompt_ms": 6634.44,
+    "prompt_per_token_ms": 19.11942363112392,
+    "prompt_per_second": 52.302831889353136,
+    "predicted_n": 534,
+    "predicted_ms": 72628.957,
+    "predicted_per_token_ms": 136.2644596622889,
+    "predicted_per_second": 7.338670717796485
+  }
+}

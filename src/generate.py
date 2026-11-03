@@ -27,6 +27,27 @@ def extract_code(text: str) -> str:
     return re.sub(r"\s*```\s*$", "", cleaned, count=1).strip()
 
 
+def compact_context(source: str) -> str:
+    """Keep declarations and public method signatures for small local models."""
+    lines = source.splitlines()
+    selected: list[str] = []
+    in_signature = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith(("using ", "namespace ", "public static partial class ")):
+            selected.append(line)
+        if stripped.startswith("public static"):
+            in_signature = True
+        if in_signature:
+            if line not in selected:
+                selected.append(line)
+            if "{" in line:
+                in_signature = False
+                selected[-1] = line.split("{", 1)[0].rstrip()
+    selected.append("\nUsage example: Guard.Against.Null(value, nameof(value));")
+    return "\n".join(selected)
+
+
 def find_project_file(repo: Path, class_path: Path) -> Path:
     candidates = sorted(class_path.parent.glob("*.csproj"))
     if candidates:
@@ -88,12 +109,14 @@ def main() -> None:
     parser.add_argument("--repeat", type=int, choices=(1, 2, 3), required=True)
     parser.add_argument("--class-file", required=True)
     parser.add_argument("--output-name", default=None)
+    parser.add_argument("--compact-context", action="store_true")
     args = parser.parse_args()
     repo = ROOT / "data" / "raw" / "repos" / args.library
     class_path = Path(args.class_file)
     if not class_path.is_absolute():
         class_path = repo / class_path
     source = class_path.read_text(encoding="utf-8")
+    prompt_source = compact_context(source) if args.compact_context else source
     prompt = f"""You are writing unit tests, not production code.
 Write a complete, compilable C# xUnit test file for the class below.
 Return ONLY raw C# source code. Do not use Markdown fences, explanations, XML documentation, or production-code implementations.
@@ -102,9 +125,21 @@ The output must contain a file-scoped test namespace, a public test class, and x
 Test the public behavior of the supplied class. Do not reproduce or rewrite the supplied production class.
 For this target, call the API as `Guard.Against.Null(value, parameterName)`; do not instantiate `GuardClauseExtensions`, which is a static class.
 Use only APIs visible in the supplied source and ordinary xUnit assertions.
+Use this exact brace structure; every namespace, class, and method must have opening and closing braces:
+namespace GeneratedTests
+{{
+    public class NullTests
+    {{
+        [Fact]
+        public void Example()
+        {{
+            // test body
+        }}
+    }}
+}}
 
-SOURCE CLASS:
-{source}"""
+SOURCE CLASS OR API CONTEXT:
+{prompt_source}"""
     if args.strategy == "feedback":
         prompt += "\n\nAdd tests that target the surviving mutants supplied in the feedback file."
     started = time.perf_counter()
@@ -125,7 +160,7 @@ SOURCE CLASS:
     (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
     project_file = create_test_project(generated_project_dir, library_project)
     usage = response.get("usage", {})
-    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
+    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "context_mode": "compact" if args.compact_context else "full", "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

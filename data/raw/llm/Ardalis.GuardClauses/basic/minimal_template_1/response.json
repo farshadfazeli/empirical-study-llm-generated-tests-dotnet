@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "using System;\nusing Ardalis.GuardClauses;\nusing Xunit;\n\nnamespace GeneratedTests\n{\n    public class NullTests\n    {\n        [Fact]\n        public void Null_returns_the_original_value_when_input_is_not_null()\n        {\n            var value = \"value\";\n            var result = Guard.Against.Null(value, nameof(value));\n            Assert.Same(value, result);\n        }\n    }\n}"
+      }
+    }
+  ],
+  "created": 1793784871,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 146,
+    "total_tokens": 228,
+    "prompt_tokens_details": {
+      "cached_tokens": 27
+    }
+  },
+  "id": "chatcmpl-BkaDKxTDptyyrSb0YssEBbelisZVgu5G",
+  "timings": {
+    "cache_n": 27,
+    "prompt_n": 119,
+    "prompt_ms": 22253.578,
+    "prompt_per_token_ms": 187.00485714285716,
+    "prompt_per_second": 5.347454687960741,
+    "predicted_n": 82,
+    "predicted_ms": 10628.954,
+    "predicted_per_token_ms": 131.22165432098765,
+    "predicted_per_second": 7.620693437943188
+  }
+}

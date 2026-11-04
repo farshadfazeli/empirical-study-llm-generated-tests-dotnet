@@ -113,6 +113,13 @@ but still failed compilation because generated assertions and identifiers were
 invalid. Its result is recorded separately in `data/results/validation.csv`; it
 is not counted as a passing LLM suite.
 
+As a diagnostic prompt check, a minimal fixed test template was sent to Qwen
+with `--minimal-template`. That output restored, compiled, and passed its
+original-code test: `compile_rate = 1.0` and `pass_rate = 1.0` for this single
+run. It is not counted as the basic strategy result because the prompt supplied
+the complete test shape; it only confirms that the generated-test project and
+validation path work when the model returns valid C#.
+
 ## Results
 
 Pending. Tables and plots will be added here after the full run.

@@ -110,6 +110,7 @@ def main() -> None:
     parser.add_argument("--class-file", required=True)
     parser.add_argument("--output-name", default=None)
     parser.add_argument("--compact-context", action="store_true")
+    parser.add_argument("--minimal-template", action="store_true")
     args = parser.parse_args()
     repo = ROOT / "data" / "raw" / "repos" / args.library
     class_path = Path(args.class_file)
@@ -117,7 +118,29 @@ def main() -> None:
         class_path = repo / class_path
     source = class_path.read_text(encoding="utf-8")
     prompt_source = compact_context(source) if args.compact_context else source
-    prompt = f"""You are writing unit tests, not production code.
+    if args.minimal_template:
+        prompt = """Return only this complete, compilable C# file. Do not add explanations or Markdown fences.
+Use exactly one xUnit test and preserve every brace and using directive.
+
+using System;
+using Ardalis.GuardClauses;
+using Xunit;
+
+namespace GeneratedTests
+{
+    public class NullTests
+    {
+        [Fact]
+        public void Null_returns_the_original_value_when_input_is_not_null()
+        {
+            var value = "value";
+            var result = Guard.Against.Null(value, nameof(value));
+            Assert.Same(value, result);
+        }
+    }
+}"""
+    else:
+        prompt = f"""You are writing unit tests, not production code.
 Write a complete, compilable C# xUnit test file for the class below.
 Return ONLY raw C# source code. Do not use Markdown fences, explanations, XML documentation, or production-code implementations.
 Return exactly three short [Fact] tests. The first line must be `using System;`, followed by `using Ardalis.GuardClauses;` and `using Xunit;`.
@@ -160,7 +183,8 @@ SOURCE CLASS OR API CONTEXT:
     (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
     project_file = create_test_project(generated_project_dir, library_project)
     usage = response.get("usage", {})
-    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "context_mode": "compact" if args.compact_context else "full", "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
+    context_mode = "minimal_template" if args.minimal_template else ("compact" if args.compact_context else "full")
+    (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "context_mode": context_mode, "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

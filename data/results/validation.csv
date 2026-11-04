@@ -82,3 +82,13 @@ C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClaus
 C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\compact_context_2\generated-tests\GeneratedTests.cs(77,72): error CS0103: The name 'invalidInput' does not exist in the current context [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\compact_context_2\generated-tests\GeneratedTests.csproj]
 C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\compact_context_2\generated-tests\GeneratedTests.cs(78,26): error CS1503: Argument 1: cannot convert from 'T' to 'bool' [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\compact_context_2\generated-tests\GeneratedTests.csproj]
 "
+Ardalis.GuardClauses,C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\minimal_template_1\generated-tests,True,True,True,0,0,2026-11-04T09:40:14.093710+00:00,"  Determining projects to restore...
+  Restored C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\minimal_template_1\generated-tests\GeneratedTests.csproj (in 21.56 sec).
+  1 of 2 projects are up-to-date for restore.
+  GuardClauses -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+  GeneratedTests -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\minimal_template_1\generated-tests\bin\Debug\net8.0\GeneratedTests.dll
+Test run for C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\minimal_template_1\generated-tests\bin\Debug\net8.0\GeneratedTests.dll (.NETCoreApp,Version=v8.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 441 ms - GeneratedTests.dll (net8.0)
+"

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "using System;\n\nnamespace GeneratedTests\n{\n    public class NullTests\n    {\n        [Fact]\n        public void Null_returns_the_original_value_when_input_is_not_null()\n        {\n            var originalValue = \"Original Value\";\n            var result = Guard.Against.Null(originalValue, \"Input cannot be null\");\n\n            Assert.Equal(originalValue, result);\n        }\n    }\n}"
+      }
+    }
+  ],
+  "created": 1793786100,
+  "model": "C:\\Users\\farshad\\Desktop\\persian-robustness\\work\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "system_fingerprint": "b11612-10da8c463",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 149,
+    "total_tokens": 226,
+    "prompt_tokens_details": {
+      "cached_tokens": 148
+    }
+  },
+  "id": "chatcmpl-AvDrdx6mi7JqSAE14xjWukoRmNGHTPKb",
+  "timings": {
+    "cache_n": 148,
+    "prompt_n": 1,
+    "prompt_ms": 102.367,
+    "prompt_per_token_ms": 102.367,
+    "prompt_per_second": 9.768773139781375,
+    "predicted_n": 77,
+    "predicted_ms": 9177.46,
+    "predicted_per_token_ms": 120.75605263157894,
+    "predicted_per_second": 8.281158403305492
+  }
+}

@@ -92,3 +92,24 @@ A total of 1 test files matched the specified pattern.
 
 Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 441 ms - GeneratedTests.dll (net8.0)
 "
+Ardalis.GuardClauses,C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests,True,False,False,0,1,2026-11-04T10:50:43.511268+00:00,"  Determining projects to restore...
+  Restored C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests\GeneratedTests.csproj (in 1.91 sec).
+  1 of 2 projects are up-to-date for restore.
+  GuardClauses -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'FactAttribute' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'Fact' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_1\generated-tests\GeneratedTests.csproj]
+"
+Ardalis.GuardClauses,C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests,True,False,False,0,1,2026-11-04T10:50:49.512851+00:00,"  Determining projects to restore...
+  Restored C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests\GeneratedTests.csproj (in 333 ms).
+  1 of 2 projects are up-to-date for restore.
+  GuardClauses -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'FactAttribute' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'Fact' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_2\generated-tests\GeneratedTests.csproj]
+"
+Ardalis.GuardClauses,C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests,True,False,False,0,1,2026-11-04T10:50:55.456988+00:00,"  Determining projects to restore...
+  Restored C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests\GeneratedTests.csproj (in 305 ms).
+  1 of 2 projects are up-to-date for restore.
+  GuardClauses -> C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\bin\Debug\net8.0\Ardalis.GuardClauses.dll
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'FactAttribute' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests\GeneratedTests.csproj]
+C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests\GeneratedTests.cs(7,10): error CS0246: The type or namespace name 'Fact' could not be found (are you missing a using directive or an assembly reference?) [C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\llm\Ardalis.GuardClauses\basic\skeleton_3\generated-tests\GeneratedTests.csproj]
+"

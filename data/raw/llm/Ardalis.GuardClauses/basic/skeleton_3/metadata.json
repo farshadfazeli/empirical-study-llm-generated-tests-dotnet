@@ -1,0 +1,14 @@
+{
+  "model": "qwen-local",
+  "temperature": 0.2,
+  "max_tokens": 400,
+  "context_mode": "skeleton_template",
+  "timestamp_utc": "2026-11-04T09:55:09.979886+00:00",
+  "generation_seconds": 8.867,
+  "prompt_tokens": 149,
+  "completion_tokens": 72,
+  "total_tokens": 221,
+  "class_file": "src\\GuardClauses\\GuardAgainstNullExtensions.cs",
+  "library_project": "src\\GuardClauses\\GuardClauses.csproj",
+  "generated_project": "data\\raw\\llm\\Ardalis.GuardClauses\\basic\\skeleton_3\\generated-tests\\GeneratedTests.csproj"
+}

@@ -120,6 +120,11 @@ run. It is not counted as the basic strategy result because the prompt supplied
 the complete test shape; it only confirms that the generated-test project and
 validation path work when the model returns valid C#.
 
+A limited three-run skeleton-template attempt was also recorded as
+`skeleton_1` through `skeleton_3`. All three restored but omitted required
+usings and therefore had compile and pass rates of `0/3`. These failures are
+retained in the validation CSV and are not treated as study successes.
+
 ## Results
 
 Pending. Tables and plots will be added here after the full run.

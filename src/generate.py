@@ -111,6 +111,7 @@ def main() -> None:
     parser.add_argument("--output-name", default=None)
     parser.add_argument("--compact-context", action="store_true")
     parser.add_argument("--minimal-template", action="store_true")
+    parser.add_argument("--skeleton-template", action="store_true")
     args = parser.parse_args()
     repo = ROOT / "data" / "raw" / "repos" / args.library
     class_path = Path(args.class_file)
@@ -136,6 +137,25 @@ namespace GeneratedTests
             var value = "value";
             var result = Guard.Against.Null(value, nameof(value));
             Assert.Same(value, result);
+        }
+    }
+}"""
+    elif args.skeleton_template:
+        prompt = """Return only one complete, compilable C# xUnit test file. Do not use Markdown or explanations.
+Keep the following structure and using directives exactly. Replace the comment with one test body for the non-null behavior of Guard.Against.Null. Do not add production code.
+
+using System;
+using Ardalis.GuardClauses;
+using Xunit;
+
+namespace GeneratedTests
+{
+    public class NullTests
+    {
+        [Fact]
+        public void Null_returns_the_original_value_when_input_is_not_null()
+        {
+            // replace this comment with the test body
         }
     }
 }"""
@@ -183,7 +203,7 @@ SOURCE CLASS OR API CONTEXT:
     (generated_project_dir / "GeneratedTests.cs").write_text(generated_source, encoding="utf-8")
     project_file = create_test_project(generated_project_dir, library_project)
     usage = response.get("usage", {})
-    context_mode = "minimal_template" if args.minimal_template else ("compact" if args.compact_context else "full")
+    context_mode = "minimal_template" if args.minimal_template else ("skeleton_template" if args.skeleton_template else ("compact" if args.compact_context else "full"))
     (out / "metadata.json").write_text(json.dumps({"model": os.environ["LLM_MODEL"], "temperature": 0.2, "max_tokens": int(os.environ.get("LLM_MAX_TOKENS", "700")), "context_mode": context_mode, "timestamp_utc": stamp, "generation_seconds": elapsed_seconds, "prompt_tokens": usage.get("prompt_tokens"), "completion_tokens": usage.get("completion_tokens"), "total_tokens": usage.get("total_tokens"), "class_file": str(class_path.relative_to(repo)), "library_project": str(library_project.relative_to(repo)), "generated_project": str(project_file.relative_to(ROOT))}, indent=2), encoding="utf-8")
 
 

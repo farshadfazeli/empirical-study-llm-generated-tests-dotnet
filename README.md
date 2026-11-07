@@ -125,6 +125,13 @@ A limited three-run skeleton-template attempt was also recorded as
 usings and therefore had compile and pass rates of `0/3`. These failures are
 retained in the validation CSV and are not treated as study successes.
 
+The one valid minimal-template suite was used for an infrastructure smoke
+test. Coverlet reported line coverage `0.0101` (`6/591`) and branch coverage
+`0.004` (`1/246`). Stryker created 352 mutants and reported mutation score
+`0.0182` (1 killed, 54 no coverage, 2 mutant compile errors, and 295 ignored).
+These values verify that measurement runs end to end; they are explicitly not
+empirical results for the Basic LLM strategy.
+
 ## Results
 
 Pending. Tables and plots will be added here after the full run.

@@ -1,0 +1,3068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.0101" branch-rate="0.004" version="1.9" timestamp="1794030781" lines-covered="6" lines-valid="591" branches-covered="1" branches-valid="246">
+  <sources>
+    <source>C:\Users\farshad\Desktop\Github2\study-llm-tests\data\raw\repos\Ardalis.GuardClauses\src\GuardClauses\</source>
+  </sources>
+  <packages>
+    <package name="Ardalis.GuardClauses" line-rate="0.0101" branch-rate="0.004" complexity="403">
+      <classes>
+        <class name="JetBrains.Annotations.StringFormatMethodAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_FormatParameterName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="130" hits="0" branch="False" />
+                <line number="131" hits="0" branch="False" />
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="135" hits="0" branch="False" />
+            <line number="130" hits="0" branch="False" />
+            <line number="131" hits="0" branch="False" />
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.ValueProviderAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="189" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="184" hits="0" branch="False" />
+                <line number="185" hits="0" branch="False" />
+                <line number="186" hits="0" branch="False" />
+                <line number="187" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="189" hits="0" branch="False" />
+            <line number="184" hits="0" branch="False" />
+            <line number="185" hits="0" branch="False" />
+            <line number="186" hits="0" branch="False" />
+            <line number="187" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.ValueRangeAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_From" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="210" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_To" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="211" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int64,System.Int64)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="213" hits="0" branch="False" />
+                <line number="214" hits="0" branch="False" />
+                <line number="215" hits="0" branch="False" />
+                <line number="216" hits="0" branch="False" />
+                <line number="217" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.UInt64,System.UInt64)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="219" hits="0" branch="False" />
+                <line number="220" hits="0" branch="False" />
+                <line number="221" hits="0" branch="False" />
+                <line number="222" hits="0" branch="False" />
+                <line number="223" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int64)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="225" hits="0" branch="False" />
+                <line number="226" hits="0" branch="False" />
+                <line number="227" hits="0" branch="False" />
+                <line number="228" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.UInt64)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="230" hits="0" branch="False" />
+                <line number="231" hits="0" branch="False" />
+                <line number="232" hits="0" branch="False" />
+                <line number="233" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="210" hits="0" branch="False" />
+            <line number="211" hits="0" branch="False" />
+            <line number="213" hits="0" branch="False" />
+            <line number="214" hits="0" branch="False" />
+            <line number="215" hits="0" branch="False" />
+            <line number="216" hits="0" branch="False" />
+            <line number="217" hits="0" branch="False" />
+            <line number="219" hits="0" branch="False" />
+            <line number="220" hits="0" branch="False" />
+            <line number="221" hits="0" branch="False" />
+            <line number="222" hits="0" branch="False" />
+            <line number="223" hits="0" branch="False" />
+            <line number="225" hits="0" branch="False" />
+            <line number="226" hits="0" branch="False" />
+            <line number="227" hits="0" branch="False" />
+            <line number="228" hits="0" branch="False" />
+            <line number="230" hits="0" branch="False" />
+            <line number="231" hits="0" branch="False" />
+            <line number="232" hits="0" branch="False" />
+            <line number="233" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ParameterName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="312" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="306" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="307" hits="0" branch="False" />
+                <line number="308" hits="0" branch="False" />
+                <line number="309" hits="0" branch="False" />
+                <line number="310" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="312" hits="0" branch="False" />
+            <line number="306" hits="0" branch="False" />
+            <line number="307" hits="0" branch="False" />
+            <line number="308" hits="0" branch="False" />
+            <line number="309" hits="0" branch="False" />
+            <line number="310" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.ContractAnnotationAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Contract" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="371" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ForceFullStates" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="373" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="363" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Boolean)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="365" hits="0" branch="False" />
+                <line number="366" hits="0" branch="False" />
+                <line number="367" hits="0" branch="False" />
+                <line number="368" hits="0" branch="False" />
+                <line number="369" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="371" hits="0" branch="False" />
+            <line number="373" hits="0" branch="False" />
+            <line number="363" hits="0" branch="False" />
+            <line number="365" hits="0" branch="False" />
+            <line number="366" hits="0" branch="False" />
+            <line number="367" hits="0" branch="False" />
+            <line number="368" hits="0" branch="False" />
+            <line number="369" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.LocalizationRequiredAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Required" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="395" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="388" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="390" hits="0" branch="False" />
+                <line number="391" hits="0" branch="False" />
+                <line number="392" hits="0" branch="False" />
+                <line number="393" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="395" hits="0" branch="False" />
+            <line number="388" hits="0" branch="False" />
+            <line number="390" hits="0" branch="False" />
+            <line number="391" hits="0" branch="False" />
+            <line number="392" hits="0" branch="False" />
+            <line number="393" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.BaseTypeRequiredAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_BaseType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="441" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Type)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="436" hits="0" branch="False" />
+                <line number="437" hits="0" branch="False" />
+                <line number="438" hits="0" branch="False" />
+                <line number="439" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="441" hits="0" branch="False" />
+            <line number="436" hits="0" branch="False" />
+            <line number="437" hits="0" branch="False" />
+            <line number="438" hits="0" branch="False" />
+            <line number="439" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.UsedImplicitlyAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_UseKindFlags" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="481" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TargetFlags" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="483" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="467" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseKindFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="470" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseTargetFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="473" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseKindFlags,JetBrains.Annotations.ImplicitUseTargetFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="475" hits="0" branch="False" />
+                <line number="476" hits="0" branch="False" />
+                <line number="477" hits="0" branch="False" />
+                <line number="478" hits="0" branch="False" />
+                <line number="479" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="481" hits="0" branch="False" />
+            <line number="483" hits="0" branch="False" />
+            <line number="467" hits="0" branch="False" />
+            <line number="470" hits="0" branch="False" />
+            <line number="473" hits="0" branch="False" />
+            <line number="475" hits="0" branch="False" />
+            <line number="476" hits="0" branch="False" />
+            <line number="477" hits="0" branch="False" />
+            <line number="478" hits="0" branch="False" />
+            <line number="479" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.MeansImplicitUseAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_UseKindFlags" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="510" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TargetFlags" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="512" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="496" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseKindFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="499" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseTargetFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="502" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.ImplicitUseKindFlags,JetBrains.Annotations.ImplicitUseTargetFlags)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="504" hits="0" branch="False" />
+                <line number="505" hits="0" branch="False" />
+                <line number="506" hits="0" branch="False" />
+                <line number="507" hits="0" branch="False" />
+                <line number="508" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="510" hits="0" branch="False" />
+            <line number="512" hits="0" branch="False" />
+            <line number="496" hits="0" branch="False" />
+            <line number="499" hits="0" branch="False" />
+            <line number="502" hits="0" branch="False" />
+            <line number="504" hits="0" branch="False" />
+            <line number="505" hits="0" branch="False" />
+            <line number="506" hits="0" branch="False" />
+            <line number="507" hits="0" branch="False" />
+            <line number="508" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.PublicAPIAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Comment" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="568" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="561" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="563" hits="0" branch="False" />
+                <line number="564" hits="0" branch="False" />
+                <line number="565" hits="0" branch="False" />
+                <line number="566" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="568" hits="0" branch="False" />
+            <line number="561" hits="0" branch="False" />
+            <line number="563" hits="0" branch="False" />
+            <line number="564" hits="0" branch="False" />
+            <line number="565" hits="0" branch="False" />
+            <line number="566" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.InstantHandleAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_RequireAwait" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="586" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="586" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.MustUseReturnValueAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Justification" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="624" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="617" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="619" hits="0" branch="False" />
+                <line number="620" hits="0" branch="False" />
+                <line number="621" hits="0" branch="False" />
+                <line number="622" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="624" hits="0" branch="False" />
+            <line number="617" hits="0" branch="False" />
+            <line number="619" hits="0" branch="False" />
+            <line number="620" hits="0" branch="False" />
+            <line number="621" hits="0" branch="False" />
+            <line number="622" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RequireStaticDelegateAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_IsError" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="643" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="643" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.PathReferenceAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_BasePath" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="680" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="673" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="675" hits="0" branch="False" />
+                <line number="676" hits="0" branch="False" />
+                <line number="677" hits="0" branch="False" />
+                <line number="678" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="680" hits="0" branch="False" />
+            <line number="673" hits="0" branch="False" />
+            <line number="675" hits="0" branch="False" />
+            <line number="676" hits="0" branch="False" />
+            <line number="677" hits="0" branch="False" />
+            <line number="678" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.MacroAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Expression" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="744" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Editable" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="754" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Target" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="760" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="744" hits="0" branch="False" />
+            <line number="754" hits="0" branch="False" />
+            <line number="760" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.CollectionAccessAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_CollectionAccessType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="801" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.CollectionAccessType)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="796" hits="0" branch="False" />
+                <line number="797" hits="0" branch="False" />
+                <line number="798" hits="0" branch="False" />
+                <line number="799" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="801" hits="0" branch="False" />
+            <line number="796" hits="0" branch="False" />
+            <line number="797" hits="0" branch="False" />
+            <line number="798" hits="0" branch="False" />
+            <line number="799" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AssertionConditionAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_ConditionType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="842" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.AssertionConditionType)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="837" hits="0" branch="False" />
+                <line number="838" hits="0" branch="False" />
+                <line number="839" hits="0" branch="False" />
+                <line number="840" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="842" hits="0" branch="False" />
+            <line number="837" hits="0" branch="False" />
+            <line number="838" hits="0" branch="False" />
+            <line number="839" hits="0" branch="False" />
+            <line number="840" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.LanguageInjectionAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_InjectedLanguage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="943" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_InjectedLanguageName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="946" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Prefix" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="949" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Suffix" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="952" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(JetBrains.Annotations.InjectedLanguage)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="932" hits="0" branch="False" />
+                <line number="933" hits="0" branch="False" />
+                <line number="934" hits="0" branch="False" />
+                <line number="935" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="937" hits="0" branch="False" />
+                <line number="938" hits="0" branch="False" />
+                <line number="939" hits="0" branch="False" />
+                <line number="940" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="943" hits="0" branch="False" />
+            <line number="946" hits="0" branch="False" />
+            <line number="949" hits="0" branch="False" />
+            <line number="952" hits="0" branch="False" />
+            <line number="932" hits="0" branch="False" />
+            <line number="933" hits="0" branch="False" />
+            <line number="934" hits="0" branch="False" />
+            <line number="935" hits="0" branch="False" />
+            <line number="937" hits="0" branch="False" />
+            <line number="938" hits="0" branch="False" />
+            <line number="939" hits="0" branch="False" />
+            <line number="940" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.CodeTemplateAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_SearchTemplate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1120" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1128" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ReplaceTemplate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1133" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ReplaceMessage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1138" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FormatAfterReplace" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1143" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MatchSimilarConstructs" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1148" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ShortenReferences" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1153" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_SuppressionKey" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1160" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1110" hits="0" branch="False" />
+                <line number="1111" hits="0" branch="False" />
+                <line number="1112" hits="0" branch="False" />
+                <line number="1113" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1120" hits="0" branch="False" />
+            <line number="1128" hits="0" branch="False" />
+            <line number="1133" hits="0" branch="False" />
+            <line number="1138" hits="0" branch="False" />
+            <line number="1143" hits="0" branch="False" />
+            <line number="1148" hits="0" branch="False" />
+            <line number="1153" hits="0" branch="False" />
+            <line number="1160" hits="0" branch="False" />
+            <line number="1110" hits="0" branch="False" />
+            <line number="1111" hits="0" branch="False" />
+            <line number="1112" hits="0" branch="False" />
+            <line number="1113" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspChildControlTypeAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_TagName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1174" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ControlType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1176" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.Type)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1168" hits="0" branch="False" />
+                <line number="1169" hits="0" branch="False" />
+                <line number="1170" hits="0" branch="False" />
+                <line number="1171" hits="0" branch="False" />
+                <line number="1172" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1174" hits="0" branch="False" />
+            <line number="1176" hits="0" branch="False" />
+            <line number="1168" hits="0" branch="False" />
+            <line number="1169" hits="0" branch="False" />
+            <line number="1170" hits="0" branch="False" />
+            <line number="1171" hits="0" branch="False" />
+            <line number="1172" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspRequiredAttributeAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Attribute" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1196" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1191" hits="0" branch="False" />
+                <line number="1192" hits="0" branch="False" />
+                <line number="1193" hits="0" branch="False" />
+                <line number="1194" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1196" hits="0" branch="False" />
+            <line number="1191" hits="0" branch="False" />
+            <line number="1192" hits="0" branch="False" />
+            <line number="1193" hits="0" branch="False" />
+            <line number="1194" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspTypePropertyAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_CreateConstructorReferences" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1202" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1204" hits="0" branch="False" />
+                <line number="1205" hits="0" branch="False" />
+                <line number="1206" hits="0" branch="False" />
+                <line number="1207" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1202" hits="0" branch="False" />
+            <line number="1204" hits="0" branch="False" />
+            <line number="1205" hits="0" branch="False" />
+            <line number="1206" hits="0" branch="False" />
+            <line number="1207" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcAreaMasterLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1222" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1217" hits="0" branch="False" />
+                <line number="1218" hits="0" branch="False" />
+                <line number="1219" hits="0" branch="False" />
+                <line number="1220" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1222" hits="0" branch="False" />
+            <line number="1217" hits="0" branch="False" />
+            <line number="1218" hits="0" branch="False" />
+            <line number="1219" hits="0" branch="False" />
+            <line number="1220" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcAreaPartialViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1233" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1228" hits="0" branch="False" />
+                <line number="1229" hits="0" branch="False" />
+                <line number="1230" hits="0" branch="False" />
+                <line number="1231" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1233" hits="0" branch="False" />
+            <line number="1228" hits="0" branch="False" />
+            <line number="1229" hits="0" branch="False" />
+            <line number="1230" hits="0" branch="False" />
+            <line number="1231" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcAreaViewComponentViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1244" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1239" hits="0" branch="False" />
+                <line number="1240" hits="0" branch="False" />
+                <line number="1241" hits="0" branch="False" />
+                <line number="1242" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1244" hits="0" branch="False" />
+            <line number="1239" hits="0" branch="False" />
+            <line number="1240" hits="0" branch="False" />
+            <line number="1241" hits="0" branch="False" />
+            <line number="1242" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1255" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1250" hits="0" branch="False" />
+                <line number="1251" hits="0" branch="False" />
+                <line number="1252" hits="0" branch="False" />
+                <line number="1253" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1255" hits="0" branch="False" />
+            <line number="1250" hits="0" branch="False" />
+            <line number="1251" hits="0" branch="False" />
+            <line number="1252" hits="0" branch="False" />
+            <line number="1253" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcMasterLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1266" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1261" hits="0" branch="False" />
+                <line number="1262" hits="0" branch="False" />
+                <line number="1263" hits="0" branch="False" />
+                <line number="1264" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1266" hits="0" branch="False" />
+            <line number="1261" hits="0" branch="False" />
+            <line number="1262" hits="0" branch="False" />
+            <line number="1263" hits="0" branch="False" />
+            <line number="1264" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcPartialViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1277" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1272" hits="0" branch="False" />
+                <line number="1273" hits="0" branch="False" />
+                <line number="1274" hits="0" branch="False" />
+                <line number="1275" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1277" hits="0" branch="False" />
+            <line number="1272" hits="0" branch="False" />
+            <line number="1273" hits="0" branch="False" />
+            <line number="1274" hits="0" branch="False" />
+            <line number="1275" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcViewComponentViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1288" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1283" hits="0" branch="False" />
+                <line number="1284" hits="0" branch="False" />
+                <line number="1285" hits="0" branch="False" />
+                <line number="1286" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1288" hits="0" branch="False" />
+            <line number="1283" hits="0" branch="False" />
+            <line number="1284" hits="0" branch="False" />
+            <line number="1285" hits="0" branch="False" />
+            <line number="1286" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcViewLocationFormatAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Format" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1299" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1294" hits="0" branch="False" />
+                <line number="1295" hits="0" branch="False" />
+                <line number="1296" hits="0" branch="False" />
+                <line number="1297" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1299" hits="0" branch="False" />
+            <line number="1294" hits="0" branch="False" />
+            <line number="1295" hits="0" branch="False" />
+            <line number="1296" hits="0" branch="False" />
+            <line number="1297" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcActionAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_AnonymousProperty" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1318" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1311" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1313" hits="0" branch="False" />
+                <line number="1314" hits="0" branch="False" />
+                <line number="1315" hits="0" branch="False" />
+                <line number="1316" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1318" hits="0" branch="False" />
+            <line number="1311" hits="0" branch="False" />
+            <line number="1313" hits="0" branch="False" />
+            <line number="1314" hits="0" branch="False" />
+            <line number="1315" hits="0" branch="False" />
+            <line number="1316" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcAreaAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_AnonymousProperty" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1336" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1329" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1331" hits="0" branch="False" />
+                <line number="1332" hits="0" branch="False" />
+                <line number="1333" hits="0" branch="False" />
+                <line number="1334" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1336" hits="0" branch="False" />
+            <line number="1329" hits="0" branch="False" />
+            <line number="1331" hits="0" branch="False" />
+            <line number="1332" hits="0" branch="False" />
+            <line number="1333" hits="0" branch="False" />
+            <line number="1334" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMvcControllerAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_AnonymousProperty" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1355" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1348" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1350" hits="0" branch="False" />
+                <line number="1351" hits="0" branch="False" />
+                <line number="1352" hits="0" branch="False" />
+                <line number="1353" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1355" hits="0" branch="False" />
+            <line number="1348" hits="0" branch="False" />
+            <line number="1350" hits="0" branch="False" />
+            <line number="1351" hits="0" branch="False" />
+            <line number="1352" hits="0" branch="False" />
+            <line number="1353" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RouteParameterConstraintAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ConstraintName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1475" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProposedType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1476" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1478" hits="0" branch="False" />
+                <line number="1479" hits="0" branch="False" />
+                <line number="1480" hits="0" branch="False" />
+                <line number="1481" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1475" hits="0" branch="False" />
+            <line number="1476" hits="0" branch="False" />
+            <line number="1478" hits="0" branch="False" />
+            <line number="1479" hits="0" branch="False" />
+            <line number="1480" hits="0" branch="False" />
+            <line number="1481" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.UriStringAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_HttpVerb" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1501" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1494" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1496" hits="0" branch="False" />
+                <line number="1497" hits="0" branch="False" />
+                <line number="1498" hits="0" branch="False" />
+                <line number="1499" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1501" hits="0" branch="False" />
+            <line number="1494" hits="0" branch="False" />
+            <line number="1496" hits="0" branch="False" />
+            <line number="1497" hits="0" branch="False" />
+            <line number="1498" hits="0" branch="False" />
+            <line number="1499" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspRouteConventionAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_PredefinedPattern" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1521" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1514" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1516" hits="0" branch="False" />
+                <line number="1517" hits="0" branch="False" />
+                <line number="1518" hits="0" branch="False" />
+                <line number="1519" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1521" hits="0" branch="False" />
+            <line number="1514" hits="0" branch="False" />
+            <line number="1516" hits="0" branch="False" />
+            <line number="1517" hits="0" branch="False" />
+            <line number="1518" hits="0" branch="False" />
+            <line number="1519" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspAttributeRoutingAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_HttpVerb" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1558" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1558" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.AspMinimalApiDeclarationAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_HttpVerb" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1571" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1571" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.HtmlElementAttributesAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1600" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1593" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1595" hits="0" branch="False" />
+                <line number="1596" hits="0" branch="False" />
+                <line number="1597" hits="0" branch="False" />
+                <line number="1598" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1600" hits="0" branch="False" />
+            <line number="1593" hits="0" branch="False" />
+            <line number="1595" hits="0" branch="False" />
+            <line number="1596" hits="0" branch="False" />
+            <line number="1597" hits="0" branch="False" />
+            <line number="1598" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.HtmlAttributeValueAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1611" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1606" hits="0" branch="False" />
+                <line number="1607" hits="0" branch="False" />
+                <line number="1608" hits="0" branch="False" />
+                <line number="1609" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1611" hits="0" branch="False" />
+            <line number="1606" hits="0" branch="False" />
+            <line number="1607" hits="0" branch="False" />
+            <line number="1608" hits="0" branch="False" />
+            <line number="1609" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RazorImportNamespaceAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1630" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1625" hits="0" branch="False" />
+                <line number="1626" hits="0" branch="False" />
+                <line number="1627" hits="0" branch="False" />
+                <line number="1628" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1630" hits="0" branch="False" />
+            <line number="1625" hits="0" branch="False" />
+            <line number="1626" hits="0" branch="False" />
+            <line number="1627" hits="0" branch="False" />
+            <line number="1628" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RazorInjectionAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Type" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1642" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FieldName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1644" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1636" hits="0" branch="False" />
+                <line number="1637" hits="0" branch="False" />
+                <line number="1638" hits="0" branch="False" />
+                <line number="1639" hits="0" branch="False" />
+                <line number="1640" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1642" hits="0" branch="False" />
+            <line number="1644" hits="0" branch="False" />
+            <line number="1636" hits="0" branch="False" />
+            <line number="1637" hits="0" branch="False" />
+            <line number="1638" hits="0" branch="False" />
+            <line number="1639" hits="0" branch="False" />
+            <line number="1640" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RazorDirectiveAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Directive" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1655" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1650" hits="0" branch="False" />
+                <line number="1651" hits="0" branch="False" />
+                <line number="1652" hits="0" branch="False" />
+                <line number="1653" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1655" hits="0" branch="False" />
+            <line number="1650" hits="0" branch="False" />
+            <line number="1651" hits="0" branch="False" />
+            <line number="1652" hits="0" branch="False" />
+            <line number="1653" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.RazorPageBaseTypeAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_BaseType" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1671" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PageName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1672" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1661" hits="0" branch="False" />
+                <line number="1662" hits="0" branch="False" />
+                <line number="1663" hits="0" branch="False" />
+                <line number="1664" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1665" hits="0" branch="False" />
+                <line number="1666" hits="0" branch="False" />
+                <line number="1667" hits="0" branch="False" />
+                <line number="1668" hits="0" branch="False" />
+                <line number="1669" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1671" hits="0" branch="False" />
+            <line number="1672" hits="0" branch="False" />
+            <line number="1661" hits="0" branch="False" />
+            <line number="1662" hits="0" branch="False" />
+            <line number="1663" hits="0" branch="False" />
+            <line number="1664" hits="0" branch="False" />
+            <line number="1665" hits="0" branch="False" />
+            <line number="1666" hits="0" branch="False" />
+            <line number="1667" hits="0" branch="False" />
+            <line number="1668" hits="0" branch="False" />
+            <line number="1669" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="JetBrains.Annotations.TestSubjectAttribute" filename="ThirdParty\JetBrains.Annotations.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Subject" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1761" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Type)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1767" hits="0" branch="False" />
+                <line number="1768" hits="0" branch="False" />
+                <line number="1769" hits="0" branch="False" />
+                <line number="1770" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1761" hits="0" branch="False" />
+            <line number="1767" hits="0" branch="False" />
+            <line number="1768" hits="0" branch="False" />
+            <line number="1769" hits="0" branch="False" />
+            <line number="1770" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.NotFoundException" filename="Exceptions\NotFoundException.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(System.String,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.Exception)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.Guard" filename="Guard.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Against" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="2" branch="False" />
+            <line number="21" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstEmptyOrWhiteSpaceExtensions.cs" line-rate="0" branch-rate="0" complexity="18">
+          <methods>
+            <method name="Empty" signature="(Ardalis.GuardClauses.IGuardClause,System.ReadOnlySpan`1&lt;System.Char&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                    <condition number="31" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="51" type="jump" coverage="0%" />
+                    <condition number="56" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="WhiteSpace" signature="(Ardalis.GuardClauses.IGuardClause,System.ReadOnlySpan`1&lt;System.Char&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="0%" />
+                    <condition number="34" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+                <condition number="31" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="51" type="jump" coverage="0%" />
+                <condition number="56" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="55" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="29" type="jump" coverage="0%" />
+                <condition number="34" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstExpressionExtensions.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="Expression" signature="(Ardalis.GuardClauses.IGuardClause,System.Func`2&lt;T,System.Boolean&gt;,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions/&lt;ExpressionAsync&gt;d__3`1" filename="GuardAgainstExpressionExtensions.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="136" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="147" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="170" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="136" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="147" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="170" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstExpressionExtensionsDeprecated.cs" line-rate="0" branch-rate="0" complexity="4">
+          <methods>
+            <method name="AgainstExpression" signature="(Ardalis.GuardClauses.IGuardClause,System.Func`2&lt;T,System.Boolean&gt;,T,System.String)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="AgainstExpression" signature="(Ardalis.GuardClauses.IGuardClause,System.Func`2&lt;T,System.Boolean&gt;,T,System.String,System.String)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions/&lt;AgainstExpressionAsync&gt;d__5`1" filename="GuardAgainstExpressionExtensionsDeprecated.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="136" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="136" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstInvalidFormatExtensions.cs" line-rate="0" branch-rate="0" complexity="18">
+          <methods>
+            <method name="InvalidFormat" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="0%" />
+                    <condition number="34" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="54" type="jump" coverage="0%" />
+                    <condition number="60" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="InvalidInput" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.Func`2&lt;T,System.Boolean&gt;,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="62" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="0%" />
+                    <condition number="39" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="15" type="jump" coverage="0%" />
+                <condition number="34" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="39" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="54" type="jump" coverage="0%" />
+                <condition number="60" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="62" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="33" type="jump" coverage="0%" />
+                <condition number="39" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions/&lt;InvalidInputAsync&gt;d__9`1" filename="GuardAgainstInvalidFormatExtensions.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="87" hits="0" branch="False" />
+                <line number="88" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="139" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="150" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="92" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="173" type="jump" coverage="0%" />
+                    <condition number="183" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="87" hits="0" branch="False" />
+            <line number="88" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="139" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="150" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="92" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="173" type="jump" coverage="0%" />
+                <condition number="183" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstNegativeExtensions.cs" line-rate="0" branch-rate="0" complexity="28">
+          <methods>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Negative" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="136" hits="0" branch="False" />
+                <line number="137" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="138" hits="0" branch="False" />
+                <line number="139" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="141" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="0%" />
+                    <condition number="58" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="144" hits="0" branch="False" />
+                <line number="145" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="162" hits="0" branch="False" />
+                <line number="163" hits="0" branch="False" />
+                <line number="164" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="181" hits="0" branch="False" />
+                <line number="182" hits="0" branch="False" />
+                <line number="183" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="200" hits="0" branch="False" />
+                <line number="201" hits="0" branch="False" />
+                <line number="202" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="219" hits="0" branch="False" />
+                <line number="220" hits="0" branch="False" />
+                <line number="221" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="238" hits="0" branch="False" />
+                <line number="239" hits="0" branch="False" />
+                <line number="240" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="257" hits="0" branch="False" />
+                <line number="258" hits="0" branch="False" />
+                <line number="259" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NegativeOrZero" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="278" hits="0" branch="False" />
+                <line number="279" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="280" hits="0" branch="False" />
+                <line number="281" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="283" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="0%" />
+                    <condition number="61" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="286" hits="0" branch="False" />
+                <line number="287" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="136" hits="0" branch="False" />
+            <line number="137" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="138" hits="0" branch="False" />
+            <line number="139" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="141" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="53" type="jump" coverage="0%" />
+                <condition number="58" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="144" hits="0" branch="False" />
+            <line number="145" hits="0" branch="False" />
+            <line number="162" hits="0" branch="False" />
+            <line number="163" hits="0" branch="False" />
+            <line number="164" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+            <line number="182" hits="0" branch="False" />
+            <line number="183" hits="0" branch="False" />
+            <line number="200" hits="0" branch="False" />
+            <line number="201" hits="0" branch="False" />
+            <line number="202" hits="0" branch="False" />
+            <line number="219" hits="0" branch="False" />
+            <line number="220" hits="0" branch="False" />
+            <line number="221" hits="0" branch="False" />
+            <line number="238" hits="0" branch="False" />
+            <line number="239" hits="0" branch="False" />
+            <line number="240" hits="0" branch="False" />
+            <line number="257" hits="0" branch="False" />
+            <line number="258" hits="0" branch="False" />
+            <line number="259" hits="0" branch="False" />
+            <line number="278" hits="0" branch="False" />
+            <line number="279" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="280" hits="0" branch="False" />
+            <line number="281" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="283" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="56" type="jump" coverage="0%" />
+                <condition number="61" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="286" hits="0" branch="False" />
+            <line number="287" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstNotFoundExtensions.cs" line-rate="0" branch-rate="0" complexity="12">
+          <methods>
+            <method name="NotFound" signature="(Ardalis.GuardClauses.IGuardClause,System.String,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="29" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="47" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NotFound" signature="(Ardalis.GuardClauses.IGuardClause,TKey,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="47" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="47" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="60" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="47" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstNullExtensions.cs" line-rate="0.059699999999999996" branch-rate="0.0138" complexity="73">
+          <methods>
+            <method name="Null" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0.4" branch-rate="0.1" complexity="10">
+              <lines>
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="38" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Null" signature="(Ardalis.GuardClauses.IGuardClause,System.Nullable`1&lt;T&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="44" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="73" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="56" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="76" hits="0" branch="False" />
+                <line number="77" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrEmpty" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="35" type="jump" coverage="0%" />
+                    <condition number="48" type="jump" coverage="0%" />
+                    <condition number="53" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrEmpty" signature="(Ardalis.GuardClauses.IGuardClause,System.Nullable`1&lt;System.Guid&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="False" />
+                <line number="128" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                    <condition number="52" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="129" hits="0" branch="False" />
+                <line number="130" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="57" type="jump" coverage="0%" />
+                    <condition number="70" type="jump" coverage="0%" />
+                    <condition number="75" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="131" hits="0" branch="False" />
+                <line number="134" hits="0" branch="False" />
+                <line number="135" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrEmpty" signature="(Ardalis.GuardClauses.IGuardClause,System.Collections.Generic.IEnumerable`1&lt;T&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="16">
+              <lines>
+                <line number="155" hits="0" branch="False" />
+                <line number="156" hits="0" branch="False" />
+                <line number="158" hits="0" branch="True" condition-coverage="0% (0/10)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="0%" />
+                    <condition number="33" type="jump" coverage="0%" />
+                    <condition number="43" type="jump" coverage="0%" />
+                    <condition number="46" type="jump" coverage="0%" />
+                    <condition number="62" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="159" hits="0" branch="False" />
+                <line number="160" hits="0" branch="False" />
+                <line number="161" hits="0" branch="False" />
+                <line number="162" hits="0" branch="False" />
+                <line number="163" hits="0" branch="False" />
+                <line number="164" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="67" type="jump" coverage="0%" />
+                    <condition number="80" type="jump" coverage="0%" />
+                    <condition number="85" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="165" hits="0" branch="False" />
+                <line number="168" hits="0" branch="False" />
+                <line number="169" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrWhiteSpace" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="189" hits="0" branch="False" />
+                <line number="190" hits="0" branch="False" />
+                <line number="191" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="25" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="192" hits="0" branch="False" />
+                <line number="193" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="0%" />
+                    <condition number="43" type="jump" coverage="0%" />
+                    <condition number="48" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="194" hits="0" branch="False" />
+                <line number="197" hits="0" branch="False" />
+                <line number="198" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Default" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="216" hits="0" branch="False" />
+                <line number="217" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="21" type="jump" coverage="0%" />
+                    <condition number="37" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="218" hits="0" branch="False" />
+                <line number="219" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="42" type="jump" coverage="0%" />
+                    <condition number="55" type="jump" coverage="0%" />
+                    <condition number="60" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="220" hits="0" branch="False" />
+                <line number="223" hits="0" branch="False" />
+                <line number="224" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrInvalidInput" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.Func`2&lt;T,System.Boolean&gt;,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="248" hits="0" branch="False" />
+                <line number="249" hits="0" branch="False" />
+                <line number="251" hits="0" branch="False" />
+                <line number="252" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="38" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="42" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="39" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="44" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="73" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="56" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="76" hits="0" branch="False" />
+            <line number="77" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="35" type="jump" coverage="0%" />
+                <condition number="48" type="jump" coverage="0%" />
+                <condition number="53" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="102" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="False" />
+            <line number="128" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+                <condition number="52" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="129" hits="0" branch="False" />
+            <line number="130" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="57" type="jump" coverage="0%" />
+                <condition number="70" type="jump" coverage="0%" />
+                <condition number="75" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="131" hits="0" branch="False" />
+            <line number="134" hits="0" branch="False" />
+            <line number="135" hits="0" branch="False" />
+            <line number="155" hits="0" branch="False" />
+            <line number="156" hits="0" branch="False" />
+            <line number="158" hits="0" branch="True" condition-coverage="0% (0/10)">
+              <conditions>
+                <condition number="25" type="jump" coverage="0%" />
+                <condition number="33" type="jump" coverage="0%" />
+                <condition number="43" type="jump" coverage="0%" />
+                <condition number="46" type="jump" coverage="0%" />
+                <condition number="62" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="159" hits="0" branch="False" />
+            <line number="160" hits="0" branch="False" />
+            <line number="161" hits="0" branch="False" />
+            <line number="162" hits="0" branch="False" />
+            <line number="163" hits="0" branch="False" />
+            <line number="164" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="67" type="jump" coverage="0%" />
+                <condition number="80" type="jump" coverage="0%" />
+                <condition number="85" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="165" hits="0" branch="False" />
+            <line number="168" hits="0" branch="False" />
+            <line number="169" hits="0" branch="False" />
+            <line number="189" hits="0" branch="False" />
+            <line number="190" hits="0" branch="False" />
+            <line number="191" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="25" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="192" hits="0" branch="False" />
+            <line number="193" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="30" type="jump" coverage="0%" />
+                <condition number="43" type="jump" coverage="0%" />
+                <condition number="48" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="194" hits="0" branch="False" />
+            <line number="197" hits="0" branch="False" />
+            <line number="198" hits="0" branch="False" />
+            <line number="216" hits="0" branch="False" />
+            <line number="217" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="21" type="jump" coverage="0%" />
+                <condition number="37" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="218" hits="0" branch="False" />
+            <line number="219" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="42" type="jump" coverage="0%" />
+                <condition number="55" type="jump" coverage="0%" />
+                <condition number="60" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="220" hits="0" branch="False" />
+            <line number="223" hits="0" branch="False" />
+            <line number="224" hits="0" branch="False" />
+            <line number="248" hits="0" branch="False" />
+            <line number="249" hits="0" branch="False" />
+            <line number="251" hits="0" branch="False" />
+            <line number="252" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstOutOfRangeExtensions.cs" line-rate="0" branch-rate="0" complexity="66">
+          <methods>
+            <method name="LengthOutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="EnumOutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="58" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="66" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="81" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="EnumOutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="10">
+              <lines>
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="58" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="97" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="91" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="OutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,System.Collections.Generic.IEnumerable`1&lt;T&gt;,System.String,T,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="24">
+              <lines>
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="50" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="126" hits="0" branch="False" />
+                <line number="127" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="0%" />
+                    <condition number="68" type="jump" coverage="0%" />
+                    <condition number="74" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="128" hits="0" branch="False" />
+                <line number="131" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="109" type="jump" coverage="0%" />
+                    <condition number="20" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="132" hits="0" branch="False" />
+                <line number="133" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="121" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="134" hits="0" branch="False" />
+                <line number="135" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="126" type="jump" coverage="0%" />
+                    <condition number="139" type="jump" coverage="0%" />
+                    <condition number="146" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="136" hits="0" branch="False" />
+                <line number="138" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="173" type="jump" coverage="0%" />
+                    <condition number="186" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="141" hits="0" branch="False" />
+                <line number="142" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrOutOfSQLDateRange" signature="(Ardalis.GuardClauses.IGuardClause,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="161" hits="0" branch="False" />
+                <line number="162" hits="0" branch="False" />
+                <line number="163" hits="0" branch="False" />
+                <line number="164" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="OutOfSQLDateRange" signature="(Ardalis.GuardClauses.IGuardClause,System.DateTime,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="181" hits="0" branch="False" />
+                <line number="186" hits="0" branch="False" />
+                <line number="187" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="OutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="208" hits="0" branch="False" />
+                <line number="209" hits="0" branch="False" />
+                <line number="210" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrOutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="235" hits="0" branch="False" />
+                <line number="236" hits="0" branch="False" />
+                <line number="237" hits="0" branch="False" />
+                <line number="238" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrOutOfRange" signature="(Ardalis.GuardClauses.IGuardClause,System.Nullable`1&lt;T&gt;,System.String,T,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="262" hits="0" branch="False" />
+                <line number="263" hits="0" branch="False" />
+                <line number="264" hits="0" branch="False" />
+                <line number="265" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="NullOrOutOfRangeInternal" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="16">
+              <lines>
+                <line number="277" hits="0" branch="False" />
+                <line number="278" hits="0" branch="False" />
+                <line number="279" hits="0" branch="False" />
+                <line number="280" hits="0" branch="False" />
+                <line number="281" hits="0" branch="False" />
+                <line number="283" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="98" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="284" hits="0" branch="False" />
+                <line number="285" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="104" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="288" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="134" type="jump" coverage="0%" />
+                    <condition number="159" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="289" hits="0" branch="False" />
+                <line number="290" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="164" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="292" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="186" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="293" hits="0" branch="False" />
+                <line number="294" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="191" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="296" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="219" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="299" hits="0" branch="False" />
+                <line number="300" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="62" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="53" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="58" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="66" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="81" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="93" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="53" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="58" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="97" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="91" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="50" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="126" hits="0" branch="False" />
+            <line number="127" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="55" type="jump" coverage="0%" />
+                <condition number="68" type="jump" coverage="0%" />
+                <condition number="74" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="128" hits="0" branch="False" />
+            <line number="131" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="109" type="jump" coverage="0%" />
+                <condition number="20" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="132" hits="0" branch="False" />
+            <line number="133" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="121" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="134" hits="0" branch="False" />
+            <line number="135" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="126" type="jump" coverage="0%" />
+                <condition number="139" type="jump" coverage="0%" />
+                <condition number="146" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="136" hits="0" branch="False" />
+            <line number="138" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="173" type="jump" coverage="0%" />
+                <condition number="186" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="141" hits="0" branch="False" />
+            <line number="142" hits="0" branch="False" />
+            <line number="161" hits="0" branch="False" />
+            <line number="162" hits="0" branch="False" />
+            <line number="163" hits="0" branch="False" />
+            <line number="164" hits="0" branch="False" />
+            <line number="181" hits="0" branch="False" />
+            <line number="186" hits="0" branch="False" />
+            <line number="187" hits="0" branch="False" />
+            <line number="208" hits="0" branch="False" />
+            <line number="209" hits="0" branch="False" />
+            <line number="210" hits="0" branch="False" />
+            <line number="235" hits="0" branch="False" />
+            <line number="236" hits="0" branch="False" />
+            <line number="237" hits="0" branch="False" />
+            <line number="238" hits="0" branch="False" />
+            <line number="262" hits="0" branch="False" />
+            <line number="263" hits="0" branch="False" />
+            <line number="264" hits="0" branch="False" />
+            <line number="265" hits="0" branch="False" />
+            <line number="277" hits="0" branch="False" />
+            <line number="278" hits="0" branch="False" />
+            <line number="279" hits="0" branch="False" />
+            <line number="280" hits="0" branch="False" />
+            <line number="281" hits="0" branch="False" />
+            <line number="283" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="98" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="284" hits="0" branch="False" />
+            <line number="285" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="104" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="288" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="134" type="jump" coverage="0%" />
+                <condition number="159" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="289" hits="0" branch="False" />
+            <line number="290" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="164" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="292" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="186" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="293" hits="0" branch="False" />
+            <line number="294" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="191" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="296" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="219" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="299" hits="0" branch="False" />
+            <line number="300" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstStringLengthExtensions.cs" line-rate="0" branch-rate="0" complexity="16">
+          <methods>
+            <method name="StringTooShort" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="40" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="0%" />
+                    <condition number="61" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="StringTooLong" signature="(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="40" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="0%" />
+                    <condition number="61" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="40" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="55" type="jump" coverage="0%" />
+                <condition number="61" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="40" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="65" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="55" type="jump" coverage="0%" />
+                <condition number="61" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Ardalis.GuardClauses.GuardClauseExtensions" filename="GuardAgainstZeroExtensions.cs" line-rate="0" branch-rate="0" complexity="14">
+          <methods>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="85" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="87" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+                <line number="125" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Zero" signature="(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1&lt;System.Exception&gt;)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="140" hits="0" branch="False" />
+                <line number="141" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="23" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="142" hits="0" branch="False" />
+                <line number="143" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="145" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="0%" />
+                    <condition number="48" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="148" hits="0" branch="False" />
+                <line number="149" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="85" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="87" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+            <line number="125" hits="0" branch="False" />
+            <line number="140" hits="0" branch="False" />
+            <line number="141" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="23" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="142" hits="0" branch="False" />
+            <line number="143" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="28" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="145" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="43" type="jump" coverage="0%" />
+                <condition number="48" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="148" hits="0" branch="False" />
+            <line number="149" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

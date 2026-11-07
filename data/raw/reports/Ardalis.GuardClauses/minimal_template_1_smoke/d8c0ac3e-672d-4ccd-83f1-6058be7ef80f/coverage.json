@@ -1,0 +1,3662 @@
+{
+  "Ardalis.GuardClauses.dll": {
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\ThirdParty\\JetBrains.Annotations.cs": {
+      "JetBrains.Annotations.StringFormatMethodAttribute": {
+        "System.String JetBrains.Annotations.StringFormatMethodAttribute::get_FormatParameterName()": {
+          "Lines": {
+            "135": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.StringFormatMethodAttribute::.ctor(System.String)": {
+          "Lines": {
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.ValueProviderAttribute": {
+        "System.String JetBrains.Annotations.ValueProviderAttribute::get_Name()": {
+          "Lines": {
+            "189": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ValueProviderAttribute::.ctor(System.String)": {
+          "Lines": {
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.ValueRangeAttribute": {
+        "System.Object JetBrains.Annotations.ValueRangeAttribute::get_From()": {
+          "Lines": {
+            "210": 0
+          },
+          "Branches": []
+        },
+        "System.Object JetBrains.Annotations.ValueRangeAttribute::get_To()": {
+          "Lines": {
+            "211": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ValueRangeAttribute::.ctor(System.Int64,System.Int64)": {
+          "Lines": {
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ValueRangeAttribute::.ctor(System.UInt64,System.UInt64)": {
+          "Lines": {
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ValueRangeAttribute::.ctor(System.Int64)": {
+          "Lines": {
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ValueRangeAttribute::.ctor(System.UInt64)": {
+          "Lines": {
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute": {
+        "System.String JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute::get_ParameterName()": {
+          "Lines": {
+            "312": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute::.ctor()": {
+          "Lines": {
+            "306": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute::.ctor(System.String)": {
+          "Lines": {
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.ContractAnnotationAttribute": {
+        "System.String JetBrains.Annotations.ContractAnnotationAttribute::get_Contract()": {
+          "Lines": {
+            "371": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean JetBrains.Annotations.ContractAnnotationAttribute::get_ForceFullStates()": {
+          "Lines": {
+            "373": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ContractAnnotationAttribute::.ctor(System.String)": {
+          "Lines": {
+            "363": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.ContractAnnotationAttribute::.ctor(System.String,System.Boolean)": {
+          "Lines": {
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.LocalizationRequiredAttribute": {
+        "System.Boolean JetBrains.Annotations.LocalizationRequiredAttribute::get_Required()": {
+          "Lines": {
+            "395": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.LocalizationRequiredAttribute::.ctor()": {
+          "Lines": {
+            "388": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.LocalizationRequiredAttribute::.ctor(System.Boolean)": {
+          "Lines": {
+            "390": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.BaseTypeRequiredAttribute": {
+        "System.Type JetBrains.Annotations.BaseTypeRequiredAttribute::get_BaseType()": {
+          "Lines": {
+            "441": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.BaseTypeRequiredAttribute::.ctor(System.Type)": {
+          "Lines": {
+            "436": 0,
+            "437": 0,
+            "438": 0,
+            "439": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.UsedImplicitlyAttribute": {
+        "JetBrains.Annotations.ImplicitUseKindFlags JetBrains.Annotations.UsedImplicitlyAttribute::get_UseKindFlags()": {
+          "Lines": {
+            "481": 0
+          },
+          "Branches": []
+        },
+        "JetBrains.Annotations.ImplicitUseTargetFlags JetBrains.Annotations.UsedImplicitlyAttribute::get_TargetFlags()": {
+          "Lines": {
+            "483": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UsedImplicitlyAttribute::.ctor()": {
+          "Lines": {
+            "467": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UsedImplicitlyAttribute::.ctor(JetBrains.Annotations.ImplicitUseKindFlags)": {
+          "Lines": {
+            "470": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UsedImplicitlyAttribute::.ctor(JetBrains.Annotations.ImplicitUseTargetFlags)": {
+          "Lines": {
+            "473": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UsedImplicitlyAttribute::.ctor(JetBrains.Annotations.ImplicitUseKindFlags,JetBrains.Annotations.ImplicitUseTargetFlags)": {
+          "Lines": {
+            "475": 0,
+            "476": 0,
+            "477": 0,
+            "478": 0,
+            "479": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.MeansImplicitUseAttribute": {
+        "JetBrains.Annotations.ImplicitUseKindFlags JetBrains.Annotations.MeansImplicitUseAttribute::get_UseKindFlags()": {
+          "Lines": {
+            "510": 0
+          },
+          "Branches": []
+        },
+        "JetBrains.Annotations.ImplicitUseTargetFlags JetBrains.Annotations.MeansImplicitUseAttribute::get_TargetFlags()": {
+          "Lines": {
+            "512": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MeansImplicitUseAttribute::.ctor()": {
+          "Lines": {
+            "496": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MeansImplicitUseAttribute::.ctor(JetBrains.Annotations.ImplicitUseKindFlags)": {
+          "Lines": {
+            "499": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MeansImplicitUseAttribute::.ctor(JetBrains.Annotations.ImplicitUseTargetFlags)": {
+          "Lines": {
+            "502": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MeansImplicitUseAttribute::.ctor(JetBrains.Annotations.ImplicitUseKindFlags,JetBrains.Annotations.ImplicitUseTargetFlags)": {
+          "Lines": {
+            "504": 0,
+            "505": 0,
+            "506": 0,
+            "507": 0,
+            "508": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.PublicAPIAttribute": {
+        "System.String JetBrains.Annotations.PublicAPIAttribute::get_Comment()": {
+          "Lines": {
+            "568": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.PublicAPIAttribute::.ctor()": {
+          "Lines": {
+            "561": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.PublicAPIAttribute::.ctor(System.String)": {
+          "Lines": {
+            "563": 0,
+            "564": 0,
+            "565": 0,
+            "566": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.InstantHandleAttribute": {
+        "System.Boolean JetBrains.Annotations.InstantHandleAttribute::get_RequireAwait()": {
+          "Lines": {
+            "586": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.MustUseReturnValueAttribute": {
+        "System.String JetBrains.Annotations.MustUseReturnValueAttribute::get_Justification()": {
+          "Lines": {
+            "624": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MustUseReturnValueAttribute::.ctor()": {
+          "Lines": {
+            "617": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.MustUseReturnValueAttribute::.ctor(System.String)": {
+          "Lines": {
+            "619": 0,
+            "620": 0,
+            "621": 0,
+            "622": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RequireStaticDelegateAttribute": {
+        "System.Boolean JetBrains.Annotations.RequireStaticDelegateAttribute::get_IsError()": {
+          "Lines": {
+            "643": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.PathReferenceAttribute": {
+        "System.String JetBrains.Annotations.PathReferenceAttribute::get_BasePath()": {
+          "Lines": {
+            "680": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.PathReferenceAttribute::.ctor()": {
+          "Lines": {
+            "673": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.PathReferenceAttribute::.ctor(System.String)": {
+          "Lines": {
+            "675": 0,
+            "676": 0,
+            "677": 0,
+            "678": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.MacroAttribute": {
+        "System.String JetBrains.Annotations.MacroAttribute::get_Expression()": {
+          "Lines": {
+            "744": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 JetBrains.Annotations.MacroAttribute::get_Editable()": {
+          "Lines": {
+            "754": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.MacroAttribute::get_Target()": {
+          "Lines": {
+            "760": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.CollectionAccessAttribute": {
+        "JetBrains.Annotations.CollectionAccessType JetBrains.Annotations.CollectionAccessAttribute::get_CollectionAccessType()": {
+          "Lines": {
+            "801": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.CollectionAccessAttribute::.ctor(JetBrains.Annotations.CollectionAccessType)": {
+          "Lines": {
+            "796": 0,
+            "797": 0,
+            "798": 0,
+            "799": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AssertionConditionAttribute": {
+        "JetBrains.Annotations.AssertionConditionType JetBrains.Annotations.AssertionConditionAttribute::get_ConditionType()": {
+          "Lines": {
+            "842": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AssertionConditionAttribute::.ctor(JetBrains.Annotations.AssertionConditionType)": {
+          "Lines": {
+            "837": 0,
+            "838": 0,
+            "839": 0,
+            "840": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.LanguageInjectionAttribute": {
+        "JetBrains.Annotations.InjectedLanguage JetBrains.Annotations.LanguageInjectionAttribute::get_InjectedLanguage()": {
+          "Lines": {
+            "943": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.LanguageInjectionAttribute::get_InjectedLanguageName()": {
+          "Lines": {
+            "946": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.LanguageInjectionAttribute::get_Prefix()": {
+          "Lines": {
+            "949": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.LanguageInjectionAttribute::get_Suffix()": {
+          "Lines": {
+            "952": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.LanguageInjectionAttribute::.ctor(JetBrains.Annotations.InjectedLanguage)": {
+          "Lines": {
+            "932": 0,
+            "933": 0,
+            "934": 0,
+            "935": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.LanguageInjectionAttribute::.ctor(System.String)": {
+          "Lines": {
+            "937": 0,
+            "938": 0,
+            "939": 0,
+            "940": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.CodeTemplateAttribute": {
+        "System.String JetBrains.Annotations.CodeTemplateAttribute::get_SearchTemplate()": {
+          "Lines": {
+            "1120": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.CodeTemplateAttribute::get_Message()": {
+          "Lines": {
+            "1128": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.CodeTemplateAttribute::get_ReplaceTemplate()": {
+          "Lines": {
+            "1133": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.CodeTemplateAttribute::get_ReplaceMessage()": {
+          "Lines": {
+            "1138": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean JetBrains.Annotations.CodeTemplateAttribute::get_FormatAfterReplace()": {
+          "Lines": {
+            "1143": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean JetBrains.Annotations.CodeTemplateAttribute::get_MatchSimilarConstructs()": {
+          "Lines": {
+            "1148": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean JetBrains.Annotations.CodeTemplateAttribute::get_ShortenReferences()": {
+          "Lines": {
+            "1153": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.CodeTemplateAttribute::get_SuppressionKey()": {
+          "Lines": {
+            "1160": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.CodeTemplateAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1110": 0,
+            "1111": 0,
+            "1112": 0,
+            "1113": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspChildControlTypeAttribute": {
+        "System.String JetBrains.Annotations.AspChildControlTypeAttribute::get_TagName()": {
+          "Lines": {
+            "1174": 0
+          },
+          "Branches": []
+        },
+        "System.Type JetBrains.Annotations.AspChildControlTypeAttribute::get_ControlType()": {
+          "Lines": {
+            "1176": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspChildControlTypeAttribute::.ctor(System.String,System.Type)": {
+          "Lines": {
+            "1168": 0,
+            "1169": 0,
+            "1170": 0,
+            "1171": 0,
+            "1172": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspRequiredAttributeAttribute": {
+        "System.String JetBrains.Annotations.AspRequiredAttributeAttribute::get_Attribute()": {
+          "Lines": {
+            "1196": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspRequiredAttributeAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1191": 0,
+            "1192": 0,
+            "1193": 0,
+            "1194": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspTypePropertyAttribute": {
+        "System.Boolean JetBrains.Annotations.AspTypePropertyAttribute::get_CreateConstructorReferences()": {
+          "Lines": {
+            "1202": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspTypePropertyAttribute::.ctor(System.Boolean)": {
+          "Lines": {
+            "1204": 0,
+            "1205": 0,
+            "1206": 0,
+            "1207": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcAreaMasterLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcAreaMasterLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1222": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaMasterLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1217": 0,
+            "1218": 0,
+            "1219": 0,
+            "1220": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcAreaPartialViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcAreaPartialViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1233": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaPartialViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1228": 0,
+            "1229": 0,
+            "1230": 0,
+            "1231": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcAreaViewComponentViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcAreaViewComponentViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1244": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaViewComponentViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1239": 0,
+            "1240": 0,
+            "1241": 0,
+            "1242": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1255": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1250": 0,
+            "1251": 0,
+            "1252": 0,
+            "1253": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcMasterLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcMasterLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1266": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcMasterLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1261": 0,
+            "1262": 0,
+            "1263": 0,
+            "1264": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcPartialViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcPartialViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1277": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcPartialViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1272": 0,
+            "1273": 0,
+            "1274": 0,
+            "1275": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcViewComponentViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcViewComponentViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1288": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcViewComponentViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1283": 0,
+            "1284": 0,
+            "1285": 0,
+            "1286": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcViewLocationFormatAttribute": {
+        "System.String JetBrains.Annotations.AspMvcViewLocationFormatAttribute::get_Format()": {
+          "Lines": {
+            "1299": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcViewLocationFormatAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1294": 0,
+            "1295": 0,
+            "1296": 0,
+            "1297": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcActionAttribute": {
+        "System.String JetBrains.Annotations.AspMvcActionAttribute::get_AnonymousProperty()": {
+          "Lines": {
+            "1318": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcActionAttribute::.ctor()": {
+          "Lines": {
+            "1311": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcActionAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1313": 0,
+            "1314": 0,
+            "1315": 0,
+            "1316": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcAreaAttribute": {
+        "System.String JetBrains.Annotations.AspMvcAreaAttribute::get_AnonymousProperty()": {
+          "Lines": {
+            "1336": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaAttribute::.ctor()": {
+          "Lines": {
+            "1329": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcAreaAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1331": 0,
+            "1332": 0,
+            "1333": 0,
+            "1334": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMvcControllerAttribute": {
+        "System.String JetBrains.Annotations.AspMvcControllerAttribute::get_AnonymousProperty()": {
+          "Lines": {
+            "1355": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcControllerAttribute::.ctor()": {
+          "Lines": {
+            "1348": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspMvcControllerAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1350": 0,
+            "1351": 0,
+            "1352": 0,
+            "1353": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RouteParameterConstraintAttribute": {
+        "System.String JetBrains.Annotations.RouteParameterConstraintAttribute::get_ConstraintName()": {
+          "Lines": {
+            "1475": 0
+          },
+          "Branches": []
+        },
+        "System.Type JetBrains.Annotations.RouteParameterConstraintAttribute::get_ProposedType()": {
+          "Lines": {
+            "1476": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RouteParameterConstraintAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1478": 0,
+            "1479": 0,
+            "1480": 0,
+            "1481": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.UriStringAttribute": {
+        "System.String JetBrains.Annotations.UriStringAttribute::get_HttpVerb()": {
+          "Lines": {
+            "1501": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UriStringAttribute::.ctor()": {
+          "Lines": {
+            "1494": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.UriStringAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1496": 0,
+            "1497": 0,
+            "1498": 0,
+            "1499": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspRouteConventionAttribute": {
+        "System.String JetBrains.Annotations.AspRouteConventionAttribute::get_PredefinedPattern()": {
+          "Lines": {
+            "1521": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspRouteConventionAttribute::.ctor()": {
+          "Lines": {
+            "1514": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.AspRouteConventionAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1516": 0,
+            "1517": 0,
+            "1518": 0,
+            "1519": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspAttributeRoutingAttribute": {
+        "System.String JetBrains.Annotations.AspAttributeRoutingAttribute::get_HttpVerb()": {
+          "Lines": {
+            "1558": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.AspMinimalApiDeclarationAttribute": {
+        "System.String JetBrains.Annotations.AspMinimalApiDeclarationAttribute::get_HttpVerb()": {
+          "Lines": {
+            "1571": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.HtmlElementAttributesAttribute": {
+        "System.String JetBrains.Annotations.HtmlElementAttributesAttribute::get_Name()": {
+          "Lines": {
+            "1600": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.HtmlElementAttributesAttribute::.ctor()": {
+          "Lines": {
+            "1593": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.HtmlElementAttributesAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1595": 0,
+            "1596": 0,
+            "1597": 0,
+            "1598": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.HtmlAttributeValueAttribute": {
+        "System.String JetBrains.Annotations.HtmlAttributeValueAttribute::get_Name()": {
+          "Lines": {
+            "1611": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.HtmlAttributeValueAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1606": 0,
+            "1607": 0,
+            "1608": 0,
+            "1609": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RazorImportNamespaceAttribute": {
+        "System.String JetBrains.Annotations.RazorImportNamespaceAttribute::get_Name()": {
+          "Lines": {
+            "1630": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RazorImportNamespaceAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1625": 0,
+            "1626": 0,
+            "1627": 0,
+            "1628": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RazorInjectionAttribute": {
+        "System.String JetBrains.Annotations.RazorInjectionAttribute::get_Type()": {
+          "Lines": {
+            "1642": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.RazorInjectionAttribute::get_FieldName()": {
+          "Lines": {
+            "1644": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RazorInjectionAttribute::.ctor(System.String,System.String)": {
+          "Lines": {
+            "1636": 0,
+            "1637": 0,
+            "1638": 0,
+            "1639": 0,
+            "1640": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RazorDirectiveAttribute": {
+        "System.String JetBrains.Annotations.RazorDirectiveAttribute::get_Directive()": {
+          "Lines": {
+            "1655": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RazorDirectiveAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1650": 0,
+            "1651": 0,
+            "1652": 0,
+            "1653": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.RazorPageBaseTypeAttribute": {
+        "System.String JetBrains.Annotations.RazorPageBaseTypeAttribute::get_BaseType()": {
+          "Lines": {
+            "1671": 0
+          },
+          "Branches": []
+        },
+        "System.String JetBrains.Annotations.RazorPageBaseTypeAttribute::get_PageName()": {
+          "Lines": {
+            "1672": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RazorPageBaseTypeAttribute::.ctor(System.String)": {
+          "Lines": {
+            "1661": 0,
+            "1662": 0,
+            "1663": 0,
+            "1664": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.RazorPageBaseTypeAttribute::.ctor(System.String,System.String)": {
+          "Lines": {
+            "1665": 0,
+            "1666": 0,
+            "1667": 0,
+            "1668": 0,
+            "1669": 0
+          },
+          "Branches": []
+        }
+      },
+      "JetBrains.Annotations.TestSubjectAttribute": {
+        "System.Type JetBrains.Annotations.TestSubjectAttribute::get_Subject()": {
+          "Lines": {
+            "1761": 0
+          },
+          "Branches": []
+        },
+        "System.Void JetBrains.Annotations.TestSubjectAttribute::.ctor(System.Type)": {
+          "Lines": {
+            "1767": 0,
+            "1768": 0,
+            "1769": 0,
+            "1770": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\Exceptions\\NotFoundException.cs": {
+      "Ardalis.GuardClauses.NotFoundException": {
+        "System.Void Ardalis.GuardClauses.NotFoundException::.ctor(System.String,System.String)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void Ardalis.GuardClauses.NotFoundException::.ctor(System.String,System.String,System.Exception)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\Guard.cs": {
+      "Ardalis.GuardClauses.Guard": {
+        "Ardalis.GuardClauses.IGuardClause Ardalis.GuardClauses.Guard::get_Against()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        },
+        "System.Void Ardalis.GuardClauses.Guard::.ctor()": {
+          "Lines": {
+            "21": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstEmptyOrWhiteSpaceExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.ReadOnlySpan`1<System.Char> Ardalis.GuardClauses.GuardClauseExtensions::Empty(Ardalis.GuardClauses.IGuardClause,System.ReadOnlySpan`1<System.Char>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 8,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 36,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 56,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 51,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 31,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.ReadOnlySpan`1<System.Char> Ardalis.GuardClauses.GuardClauseExtensions::WhiteSpace(Ardalis.GuardClauses.IGuardClause,System.ReadOnlySpan`1<System.Char>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 34,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 29,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 9,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstExpressionExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Expression(Ardalis.GuardClauses.IGuardClause,System.Func`2<T,System.Boolean>,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 15,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 30,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 10,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Ardalis.GuardClauses.GuardClauseExtensions/<ExpressionAsync>d__3`1": {
+        "System.Void Ardalis.GuardClauses.GuardClauseExtensions/<ExpressionAsync>d__3`1::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 147,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 170,
+              "EndOffset": 172,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 170,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 136,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstExpressionExtensionsDeprecated.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "T Ardalis.GuardClauses.GuardClauseExtensions::AgainstExpression(Ardalis.GuardClauses.IGuardClause,System.Func`2<T,System.Boolean>,T,System.String)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::AgainstExpression(Ardalis.GuardClauses.IGuardClause,System.Func`2<T,System.Boolean>,T,System.String,System.String)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 13,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Ardalis.GuardClauses.GuardClauseExtensions/<AgainstExpressionAsync>d__5`1": {
+        "System.Void Ardalis.GuardClauses.GuardClauseExtensions/<AgainstExpressionAsync>d__5`1::MoveNext()": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 136,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstInvalidFormatExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::InvalidFormat(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 15,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 39,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 60,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 54,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 34,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::InvalidInput(Ardalis.GuardClauses.IGuardClause,T,System.String,System.Func`2<T,System.Boolean>,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 18,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 39,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 33,
+              "EndOffset": 64,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 13,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Ardalis.GuardClauses.GuardClauseExtensions/<InvalidInputAsync>d__9`1": {
+        "System.Void Ardalis.GuardClauses.GuardClauseExtensions/<InvalidInputAsync>d__9`1::MoveNext()": {
+          "Lines": {
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "95": 0,
+            "96": 0
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 150,
+              "EndOffset": 156,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 183,
+              "EndOffset": 185,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 183,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 173,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 139,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstNegativeExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.Int32 Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Single Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0
+          },
+          "Branches": []
+        },
+        "System.Double Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "99": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.TimeSpan Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "117": 0,
+            "118": 0,
+            "119": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Negative(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "144": 0,
+            "145": 0
+          },
+          "Branches": [
+            {
+              "Line": 137,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 38,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 58,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 53,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 33,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "162": 0,
+            "163": 0,
+            "164": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "181": 0,
+            "182": 0,
+            "183": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "200": 0,
+            "201": 0,
+            "202": 0
+          },
+          "Branches": []
+        },
+        "System.Single Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "219": 0,
+            "220": 0,
+            "221": 0
+          },
+          "Branches": []
+        },
+        "System.Double Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "238": 0,
+            "239": 0,
+            "240": 0
+          },
+          "Branches": []
+        },
+        "System.TimeSpan Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "257": 0,
+            "258": 0,
+            "259": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NegativeOrZero(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "283": 0,
+            "286": 0,
+            "287": 0
+          },
+          "Branches": [
+            {
+              "Line": 279,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 281,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 281,
+              "Offset": 41,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 283,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 283,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 283,
+              "Offset": 61,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 283,
+              "Offset": 56,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 279,
+              "Offset": 36,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstNotFoundExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NotFound(Ardalis.GuardClauses.IGuardClause,System.String,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 47,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 27,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NotFound(Ardalis.GuardClauses.IGuardClause,TKey,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "65": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 47,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 27,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstNullExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Null(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 17,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 43,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 38,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 55,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Null(Ardalis.GuardClauses.IGuardClause,System.Nullable`1<T>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 18,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 44,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 39,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 56,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 13,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::NullOrEmpty(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": [
+            {
+              "Line": 99,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 35,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 53,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 48,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 30,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Guid Ardalis.GuardClauses.GuardClauseExtensions::NullOrEmpty(Ardalis.GuardClauses.IGuardClause,System.Nullable`1<System.Guid>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "134": 0,
+            "135": 0
+          },
+          "Branches": [
+            {
+              "Line": 128,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 57,
+              "EndOffset": 59,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 57,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 75,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 70,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 52,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerable`1<T> Ardalis.GuardClauses.GuardClauseExtensions::NullOrEmpty(Ardalis.GuardClauses.IGuardClause,System.Collections.Generic.IEnumerable`1<T>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "155": 0,
+            "156": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "168": 0,
+            "169": 0
+          },
+          "Branches": [
+            {
+              "Line": 158,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 25,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 43,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 33,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 46,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 67,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 85,
+              "EndOffset": 104,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 164,
+              "Offset": 80,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 62,
+              "EndOffset": 111,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::NullOrWhiteSpace(Ardalis.GuardClauses.IGuardClause,System.String,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "197": 0,
+            "198": 0
+          },
+          "Branches": [
+            {
+              "Line": 191,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 30,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 48,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 43,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 191,
+              "Offset": 25,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Default(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "223": 0,
+            "224": 0
+          },
+          "Branches": [
+            {
+              "Line": 217,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 21,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 42,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 60,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 219,
+              "Offset": 55,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 37,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NullOrInvalidInput(Ardalis.GuardClauses.IGuardClause,T,System.String,System.Func`2<T,System.Boolean>,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "248": 0,
+            "249": 0,
+            "251": 0,
+            "252": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstOutOfRangeExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::LengthOutOfRange(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Ardalis.GuardClauses.GuardClauseExtensions::EnumOutOfRange(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 58,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 53,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 81,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 27,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::EnumOutOfRange(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": [
+            {
+              "Line": 90,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 58,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 93,
+              "Offset": 53,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 91,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 27,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerable`1<T> Ardalis.GuardClauses.GuardClauseExtensions::OutOfRange(Ardalis.GuardClauses.IGuardClause,System.Collections.Generic.IEnumerable`1<T>,System.String,T,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0,
+            "141": 0,
+            "142": 0
+          },
+          "Branches": [
+            {
+              "Line": 125,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 55,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 74,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 68,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 50,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 121,
+              "EndOffset": 123,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 126,
+              "EndOffset": 131,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 146,
+              "EndOffset": 148,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 146,
+              "EndOffset": 165,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 135,
+              "Offset": 139,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 121,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 173,
+              "EndOffset": 178,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 186,
+              "EndOffset": 188,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 186,
+              "EndOffset": 197,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 109,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 131,
+              "Offset": 20,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.DateTime Ardalis.GuardClauses.GuardClauseExtensions::NullOrOutOfSQLDateRange(Ardalis.GuardClauses.IGuardClause,System.Nullable`1<System.DateTime>,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Ardalis.GuardClauses.GuardClauseExtensions::OutOfSQLDateRange(Ardalis.GuardClauses.IGuardClause,System.DateTime,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "181": 0,
+            "186": 0,
+            "187": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::OutOfRange(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "208": 0,
+            "209": 0,
+            "210": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NullOrOutOfRange(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NullOrOutOfRange(Ardalis.GuardClauses.IGuardClause,System.Nullable`1<T>,System.String,T,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::NullOrOutOfRangeInternal(Ardalis.GuardClauses.IGuardClause,T,System.String,T,T,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "296": 0,
+            "299": 0,
+            "300": 0
+          },
+          "Branches": [
+            {
+              "Line": 283,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 285,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 285,
+              "Offset": 104,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 283,
+              "Offset": 98,
+              "EndOffset": 119,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 288,
+              "Offset": 134,
+              "EndOffset": 136,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 288,
+              "Offset": 134,
+              "EndOffset": 156,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 288,
+              "Offset": 159,
+              "EndOffset": 161,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 290,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 290,
+              "Offset": 164,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 292,
+              "Offset": 186,
+              "EndOffset": 188,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 294,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 294,
+              "Offset": 191,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 292,
+              "Offset": 186,
+              "EndOffset": 217,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 296,
+              "Offset": 219,
+              "EndOffset": 221,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 296,
+              "Offset": 219,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 288,
+              "Offset": 159,
+              "EndOffset": 231,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstStringLengthExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::StringTooShort(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 61,
+              "EndOffset": 165,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 55,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 32,
+              "EndOffset": 172,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String Ardalis.GuardClauses.GuardClauseExtensions::StringTooLong(Ardalis.GuardClauses.IGuardClause,System.String,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 32,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 40,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 61,
+              "EndOffset": 165,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 55,
+              "EndOffset": 171,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 32,
+              "EndOffset": 172,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\farshad\\Desktop\\Github2\\study-llm-tests\\data\\raw\\repos\\Ardalis.GuardClauses\\src\\GuardClauses\\GuardAgainstZeroExtensions.cs": {
+      "Ardalis.GuardClauses.GuardClauseExtensions": {
+        "System.Int32 Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.Int32,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Int64 Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.Int64,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.Decimal,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Single Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.Single,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "85": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": []
+        },
+        "System.Double Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.Double,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0
+          },
+          "Branches": []
+        },
+        "System.TimeSpan Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,System.TimeSpan,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "123": 0,
+            "124": 0,
+            "125": 0
+          },
+          "Branches": []
+        },
+        "T Ardalis.GuardClauses.GuardClauseExtensions::Zero(Ardalis.GuardClauses.IGuardClause,T,System.String,System.String,System.Func`1<System.Exception>)": {
+          "Lines": {
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "145": 0,
+            "148": 0,
+            "149": 0
+          },
+          "Branches": [
+            {
+              "Line": 141,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 143,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 143,
+              "Offset": 28,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 48,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 43,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 141,
+              "Offset": 23,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

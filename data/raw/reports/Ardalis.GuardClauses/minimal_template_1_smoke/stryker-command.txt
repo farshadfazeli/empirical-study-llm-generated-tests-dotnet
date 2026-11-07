@@ -1,0 +1,4 @@
+Working directory: data/raw/llm/Ardalis.GuardClauses/basic/minimal_template_1/generated-tests
+dotnet-stryker.exe --project GuardClauses.csproj --test-project GeneratedTests.csproj --mutate GuardAgainstNullExtensions.cs --reporter json --output data/raw/reports/Ardalis.GuardClauses/minimal_template_1_smoke
+Stryker.NET: 4.8.0
+This is an infrastructure smoke test only; it is excluded from the empirical comparison.

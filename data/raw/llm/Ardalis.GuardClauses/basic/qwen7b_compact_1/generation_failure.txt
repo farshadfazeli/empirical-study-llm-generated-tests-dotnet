@@ -1,0 +1,6 @@
+model=qwen2.5-7b-instruct-q4
+context_mode=compact
+endpoint=http://127.0.0.1:8091/v1
+request_timeout_seconds=300
+status=timeout
+No model response was received, so no generated test file or token metadata exists for this attempt.

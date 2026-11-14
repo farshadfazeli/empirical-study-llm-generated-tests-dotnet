@@ -17,6 +17,11 @@ not a completed eight-library study.
 The full Basic strategy outputs did not compile. They are retained and counted
 as failures; they are not silently converted into results.
 
+One limited attempt with the locally available Qwen 7B model also timed out at
+the configured 300-second request limit. It produced no response, so it has no
+coverage or validation result; the timeout is recorded in
+`data/results/pilot_generation.csv`.
+
 ## Recorded pilot observations
 
 | Run | Compile | Pass | Line coverage | Branch coverage | Mutation score |
